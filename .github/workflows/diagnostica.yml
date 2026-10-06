@@ -1,0 +1,25 @@
+name: 9 - Diagnostica AI
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  models: read
+
+jobs:
+  diag:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Prova GitHub Models
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          curl -sS -i -X POST "https://models.github.ai/inference/chat/completions" \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer $GITHUB_TOKEN" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            -H "Content-Type: application/json" \
+            -d '{"model":"openai/gpt-4.1-mini","messages":[{"role":"user","content":"Say hi in JSON {\"msg\":...}"}]}' | head -c 1500
+          echo; echo ----; env | grep -i proxy || true
+          python3 -c "import requests;r=requests.post('https://models.github.ai/inference/chat/completions',headers={'Authorization':'Bearer x'},json={},allow_redirects=False);print(r.status_code,r.headers.get('location'),r.text[:200])"
