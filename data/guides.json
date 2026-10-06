@@ -32,5 +32,39 @@
       "Premia i Progressi",
       "Rivedi e Adatta il Piano"
     ]
+  },
+  "en:declutter your home in 7 days": {
+    "lang": "en",
+    "topic": "declutter your home in 7 days",
+    "title": "7-Day Home Declutter Sprint",
+    "subtitle": "Simple daily steps to a calmer, organized space",
+    "intro": "Feeling overwhelmed by clutter but not sure where to start? This 7‑day declutter sprint breaks the process into bite‑size daily actions, so you can make steady progress without stress. Each day focuses on a specific area, using proven organizing habits that anyone can adopt. By the end of the week you’ll see clearer surfaces, easier cleaning, and a sense of calm that lasts. Ready to reclaim your home? Let’s begin the transformation together and enjoy a brighter living environment today.",
+    "slug": "7-day-home-declutter-sprint",
+    "pdf": "guides/en/7-day-home-declutter-sprint.pdf",
+    "funnel": "funnels/en/7-day-home-declutter-sprint.md",
+    "chapters": [
+      "Day 1 – Tame the Entryway",
+      "Day 2 – Clear Kitchen Surfaces",
+      "Day 3 – Simplify the Living Room",
+      "Day 4 – Streamline Closets",
+      "Day 5 – Refresh the Bathroom"
+    ]
+  },
+  "it:riordinare casa in 7 giorni": {
+    "lang": "it",
+    "topic": "riordinare casa in 7 giorni",
+    "title": "Casa in ordine in 7 giorni: la guida pratica",
+    "subtitle": "Passi semplici per trasformare ogni stanza, giorno dopo giorno",
+    "intro": "Benvenuto nella tua mini‑guida per riordinare casa in una settimana. In soli sette giorni potrai trasformare ambienti caotici in spazi ordinati e funzionali, senza stress né sacrifici estremi. Segui il piano passo‑passo, dedicando pochi minuti al giorno a compiti mirati. Con piccoli cambiamenti quotidiani, il disordine si ridurrà gradualmente, lasciandoti più tempo per le cose che ami. Preparati a scoprire trucchi pratici, metodi di decluttering e routine di mantenimento facili da integrare nella tua vita e godere di serenità ogni giorno.",
+    "slug": "casa-in-ordine-in-7-giorni-la-guida-pratica",
+    "pdf": "guides/it/casa-in-ordine-in-7-giorni-la-guida-pratica.pdf",
+    "funnel": "funnels/it/casa-in-ordine-in-7-giorni-la-guida-pratica.md",
+    "chapters": [
+      "Giorno 1 – Analisi e pianificazione",
+      "Giorno 2 – Decluttering della cucina",
+      "Giorno 3 – Ordine del soggiorno",
+      "Giorno 4 – Camera da letto",
+      "Giorno 5 – Bagno e aree di servizio"
+    ]
   }
 }

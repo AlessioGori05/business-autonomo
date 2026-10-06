@@ -996,5 +996,509 @@
     ],
     "description": "Un breve video educativo per i più piccoli: colori, numeri, forme e lettere.",
     "status": "preview"
+  },
+  {
+    "id": "20261006-A-en-972a5415",
+    "date": "2026-10-06",
+    "channel": "main_en",
+    "lang": "en",
+    "method": "A_viral",
+    "variant": {
+      "code": "A2",
+      "hook": "you_are_doing_it_wrong",
+      "theme": "sunset",
+      "length": "short"
+    },
+    "topic": "kitchen life hacks",
+    "title": "You're Doing Kitchen Tasks Wrong – Simple Hacks to Fix Them",
+    "lines": [
+      "You're washing lettuce wrong – use a bowl of cold water, not a sink.",
+      "You're overcooking pasta – boil with plenty of water, stir, then drain promptly.",
+      "You're storing tomatoes incorrectly – keep them at room temperature, not in the fridge.",
+      "You're using dull knives – sharpen with a ceramic rod for safer, smoother cuts.",
+      "You're reheating pizza on a plate – use a skillet for crisp crust.",
+      "You're cleaning microwaves with harsh chemicals – steam a bowl of water, then wipe."
+    ],
+    "tags": [
+      "kitchen",
+      "lifehacks",
+      "tips",
+      "cooking",
+      "home",
+      "DIY",
+      "food",
+      "organization"
+    ],
+    "description": "Learn quick fixes for common kitchen mistakes that save time and improve flavor. These easy hacks use everyday items and simple techniques anyone can apply.\n\nhttps://alessiogori05.github.io/business-autonomo/en/index.html\n\n\n#shorts #kitchen #lifehacks #tips",
+    "status": "preview"
+  },
+  {
+    "id": "20261006-B-en-c8c803a9",
+    "date": "2026-10-06",
+    "channel": "main_en",
+    "lang": "en",
+    "method": "B_affiliate",
+    "variant": {
+      "code": "B3",
+      "hook": "countdown",
+      "theme": "midnight",
+      "length": "short"
+    },
+    "topic": "home workout gear",
+    "title": "3‑2‑1 Home Workout Gear Countdown: Best Items for Small Spaces",
+    "lines": [
+      "Ready to upgrade your home workouts in seconds?",
+      "3 – Resistance bands add full‑body tension without heavy equipment.",
+      "2 – Adjustable dumbbells replace an entire rack, saving floor space.",
+      "1 – Compact foldable yoga mat provides grip and cushioning anywhere.",
+      "Link in bio for the full list"
+    ],
+    "tags": [
+      "home workout",
+      "fitness gear",
+      "exercise at home",
+      "resistance bands",
+      "adjustable dumbbells",
+      "yoga mat",
+      "small space gym",
+      "workout tips"
+    ],
+    "products": [
+      {
+        "name": "Resistance bands",
+        "search_query": "resistance bands set",
+        "why": "They offer variable tension for strength training, stretching, and rehabilitation without bulky equipment.",
+        "check_before_buying": "Ensure the bands are made of durable latex and include a range of resistance levels."
+      },
+      {
+        "name": "Adjustable dumbbells",
+        "search_query": "adjustable dumbbells",
+        "why": "These replace multiple fixed‑weight dumbbells, allowing quick weight changes for progressive overload.",
+        "check_before_buying": "Verify the locking mechanism is secure and the weight plates are firmly attached."
+      },
+      {
+        "name": "Foldable yoga mat",
+        "search_query": "foldable yoga mat",
+        "why": "Provides a stable, cushioned surface for floor exercises and yoga, and folds flat for storage.",
+        "check_before_buying": "Look for non‑slip material and a thickness that balances comfort with portability."
+      }
+    ],
+    "page_intro": "Creating a functional workout area at home doesn’t require a full‑size gym. Simple, affordable tools can provide resistance, weight, and comfort for a wide range of exercises. By selecting gear that folds, adjusts, or stretches, you keep your space tidy while still challenging your muscles. This guide highlights three versatile items that fit into apartments, dorm rooms, or any limited‑space environment, helping you stay active without compromising on quality or safety.",
+    "landing": "en/321-home-workout-gear-countdown-best-items-for-sma",
+    "description": "Discover three essential pieces of equipment that transform any room into an effective home gym. From versatile resistance bands to space‑saving dumbbells and a portable yoga mat, these items cover strength, cardio, and flexibility without clutter.\n\nhttps://alessiogori05.github.io/business-autonomo/en/321-home-workout-gear-countdown-best-items-for-sma.html\nContains affiliate links.\n\n#shorts #homeworkout #fitnessgear #exerciseathome",
+    "status": "preview"
+  },
+  {
+    "id": "20261006-A-en-6f101269",
+    "date": "2026-10-06",
+    "channel": "main_en",
+    "lang": "en",
+    "method": "A_viral",
+    "variant": {
+      "code": "A9",
+      "hook": "question",
+      "theme": "midnight",
+      "length": "short"
+    },
+    "topic": "productivity tricks",
+    "title": "Unlock Faster Work: 6 Proven Productivity Tricks",
+    "lines": [
+      "Ever wonder why some people finish tasks faster than you?",
+      "Apply the two‑minute rule: do tiny tasks immediately.",
+      "Group similar work together to cut mental switching costs.",
+      "Set a 25‑minute timer for focused bursts, then short break.",
+      "Clear desktop icons; a tidy screen reduces visual distraction.",
+      "Stand up and stretch for a minute every hour to refresh mind."
+    ],
+    "tags": [
+      "productivity",
+      "tips",
+      "focus",
+      "time-management",
+      "work-hacks",
+      "efficiency",
+      "Pomodoro",
+      "organization"
+    ],
+    "description": "These quick productivity tricks help you work faster and stay focused. Try them today for noticeable results.\n\nhttps://alessiogori05.github.io/business-autonomo/en/index.html\n\n\n#shorts #productivity #tips #focus",
+    "status": "preview"
+  },
+  {
+    "id": "20261006-C-en-17f8729f",
+    "date": "2026-10-06",
+    "channel": "main_en",
+    "lang": "en",
+    "method": "C_leadmagnet",
+    "variant": {
+      "code": "C3",
+      "hook": "problem_solution",
+      "theme": "sunset",
+      "length": "long"
+    },
+    "topic": "declutter your home in 7 days",
+    "title": "7-Day Home Declutter Sprint: Turn Chaos into Calm",
+    "lines": [
+      "Your home feels chaotic, and you can’t find anything you need.",
+      "Spend just seven days, and watch the mess disappear fast.",
+      "Day 1: Sort one room, keep only items you use weekly.",
+      "Put everything else in three boxes: donate, sell, or store.",
+      "Day 2: Tackle surfaces—clear counters, desks, and nightstands daily.",
+      "Use a timer: 15 minutes per area keeps momentum high.",
+      "Day 3: Declutter drawers by grouping similar items together.",
+      "Keep only what fits comfortably; return extras to the three boxes.",
+      "Repeat for each room; finish with a quick tidy sweep.",
+      "Free guide '7-Day Home Declutter Sprint' - link in bio"
+    ],
+    "tags": [
+      "declutter",
+      "home organization",
+      "minimalism",
+      "cleaning tips",
+      "DIY",
+      "productivity",
+      "spring cleaning",
+      "quick hacks"
+    ],
+    "guide": "7-day-home-declutter-sprint",
+    "description": "Learn how to transform a cluttered home in just seven days with simple, actionable steps. Follow the daily plan and discover quick tips to keep only what you need, and donate or store the rest.\n\nhttps://alessiogori05.github.io/business-autonomo/en/guide-7-day-home-declutter-sprint.html\n\n\n#shorts #declutter #homeorganization #minimalism",
+    "status": "preview"
+  },
+  {
+    "id": "20261006-B-it-cbde1346",
+    "date": "2026-10-06",
+    "channel": "main_it",
+    "lang": "it",
+    "method": "B_affiliate",
+    "variant": {
+      "code": "B6",
+      "hook": "countdown",
+      "theme": "sunset",
+      "length": "long"
+    },
+    "topic": "essenziali da viaggio",
+    "title": "3 Essenziali da Viaggio: Zaino, Bottiglia e Adattatore – Countdown",
+    "lines": [
+      "Pronti per partire? Ecco tre essenziali da non dimenticare.",
+      "3. Zaino compressibile, leggero, massimizza spazio nella valigia.",
+      "2. Bottiglia d’acqua pieghevole, riutilizzabile, risparmia peso.",
+      "1. Adattatore universale multiporte, funziona in oltre 150 paesi.",
+      "Proteggi documenti con una custodia impermeabile, evita danni improvvisi.",
+      "Usa sacchetti zip per organizzare accessori e ridurre confusione.",
+      "Mantieni batterie cariche con una power bank compatta, indispensabile in volo.",
+      "Scegli capi versatili, facili da combinare, per ridurre il bagaglio.",
+      "Link nel profilo per la lista completa"
+    ],
+    "tags": [
+      "viaggio",
+      "essenziali",
+      "zaino",
+      "bottiglia",
+      "adattatore",
+      "consigli",
+      "packing",
+      "travelhacks"
+    ],
+    "products": [
+      {
+        "name": "Zaino compressibile",
+        "search_query": "zaino compressibile viaggio",
+        "why": "Un zaino che si comprime permette di ottimizzare lo spazio e di riporre oggetti ingombranti.",
+        "check_before_buying": "Verifica la capacità di compressione e la resistenza dei materiali."
+      },
+      {
+        "name": "Bottiglia d’acqua pieghevole",
+        "search_query": "bottiglia acqua pieghevole",
+        "why": "Una bottiglia flessibile si ripiega vuota, risparmiando spazio e peso nella borsa.",
+        "check_before_buying": "Assicurati che il materiale sia privo di BPA e che la chiusura sia a prova di perdite."
+      },
+      {
+        "name": "Adattatore universale multiporte",
+        "search_query": "adattatore universale viaggio",
+        "why": "Consente di collegare dispositivi a prese di diversi paesi senza portare più caricatori.",
+        "check_before_buying": "Controlla che includa le prese più comuni e che supporti la tua tensione."
+      }
+    ],
+    "page_intro": "Benvenuti nel nostro canale dedicato ai viaggiatori intelligenti! Qui troverete consigli pratici per ottimizzare il bagaglio, scegliere gli accessori più utili e viaggiare leggeri. Ogni video è pensato per chi vuole risparmiare spazio, tempo e stress, senza rinunciare al comfort. Scoprite gli essenziali da viaggio che fanno la differenza e preparatevi a partire con sicurezza. Seguiteci per aggiornamenti settimanali e suggerimenti testati da esperti.",
+    "landing": "it/3-essenziali-da-viaggio-zaino-bottiglia-e-adattato",
+    "description": "Scopri i tre oggetti indispensabili per viaggiare leggeri e organizzati. Dal sacco compatto alla bottiglia pieghevole, fino all'adattatore universale, questi consigli ti aiuteranno a ottimizzare lo spazio e a evitare inconvenienti in viaggio.\n\nhttps://alessiogori05.github.io/business-autonomo/it/3-essenziali-da-viaggio-zaino-bottiglia-e-adattato.html\nContiene link di affiliazione.\n\n#shorts #viaggio #essenziali #zaino",
+    "status": "preview"
+  },
+  {
+    "id": "20261006-C-it-0fd8a524",
+    "date": "2026-10-06",
+    "channel": "main_it",
+    "lang": "it",
+    "method": "C_leadmagnet",
+    "variant": {
+      "code": "C10",
+      "hook": "problem_solution",
+      "theme": "mint",
+      "length": "long"
+    },
+    "topic": "riordinare casa in 7 giorni",
+    "title": "Casa in ordine in 7 giorni: il piano giorno per giorno",
+    "lines": [
+      "Ti senti sopraffatto dal disordine? Non sei solo.",
+      "Ogni stanza ha un piccolo passo per ritrovare l’ordine.",
+      "Giorno 1: svuota i cassetti, tieni solo ciò che usi davvero.",
+      "Giorno 2: organizza gli armadi per categorie: vestiti, accessori, scarpe.",
+      "Giorno 3: elimina oggetti rotti o inutili, dona ciò che è buono.",
+      "Giorno 4: dedica 15 minuti a pulire superfici visibili.",
+      "Giorno 5: crea una zona di ingresso con cassetta per chiavi.",
+      "Giorno 6: stabilisci una routine di 5 minuti prima di dormire.",
+      "Giorno 7: rivedi il risultato, aggiusta i punti deboli.",
+      "Guida gratis 'Casa in ordine in 7 giorni: la guida pratica' - link nel profilo"
+    ],
+    "tags": [
+      "riordino casa",
+      "organizzazione",
+      "pulizia",
+      "guida gratuita",
+      "ordine",
+      "consigli pratici",
+      "7 giorni",
+      "DIY"
+    ],
+    "guide": "casa-in-ordine-in-7-giorni-la-guida-pratica",
+    "description": "Scopri come trasformare il caos domestico in ordine in una settimana, passo dopo passo.\n\nhttps://alessiogori05.github.io/business-autonomo/it/guide-casa-in-ordine-in-7-giorni-la-guida-pratica.html\n\n\n#shorts #riordinocasa #organizzazione #pulizia",
+    "status": "preview"
+  },
+  {
+    "id": "20261006-E-en-e8eefc83",
+    "date": "2026-10-06",
+    "channel": "kids_en",
+    "lang": "en",
+    "method": "E_kids",
+    "variant": {
+      "code": "E6",
+      "hook": "guess_game",
+      "theme": "sky",
+      "length": "short"
+    },
+    "topic": "shapes",
+    "title": "Shapes for kids: circle, heart, square",
+    "lines": [
+      "Let's find the shapes!",
+      "A circle!",
+      "A heart!",
+      "A square!",
+      "A triangle!",
+      "You know your shapes!"
+    ],
+    "tags": [],
+    "scenes": [
+      {
+        "kind": "title"
+      },
+      {
+        "kind": "shape",
+        "shape": "circle",
+        "color": "#FDD835",
+        "label": "circle"
+      },
+      {
+        "kind": "shape",
+        "shape": "heart",
+        "color": "#FB8C00",
+        "label": "heart"
+      },
+      {
+        "kind": "shape",
+        "shape": "square",
+        "color": "#E53935",
+        "label": "square"
+      },
+      {
+        "kind": "shape",
+        "shape": "triangle",
+        "color": "#43A047",
+        "label": "triangle"
+      },
+      {
+        "kind": "title"
+      }
+    ],
+    "description": "A gentle learning short for little ones: colors, numbers, shapes and letters.",
+    "status": "preview"
+  },
+  {
+    "id": "20261006-E-en-64604cb3",
+    "date": "2026-10-06",
+    "channel": "kids_en",
+    "lang": "en",
+    "method": "E_kids",
+    "variant": {
+      "code": "E9",
+      "hook": "sing_along",
+      "theme": "candy",
+      "length": "long"
+    },
+    "topic": "letters",
+    "title": "Letters L - P",
+    "lines": [
+      "Let's learn letters!",
+      "This is the letter L!",
+      "This is the letter M!",
+      "This is the letter N!",
+      "This is the letter O!",
+      "This is the letter P!",
+      "Great job!"
+    ],
+    "tags": [],
+    "scenes": [
+      {
+        "kind": "title"
+      },
+      {
+        "kind": "letter",
+        "letter": "L",
+        "color": "#FDD835"
+      },
+      {
+        "kind": "letter",
+        "letter": "M",
+        "color": "#1E88E5"
+      },
+      {
+        "kind": "letter",
+        "letter": "N",
+        "color": "#FDD835"
+      },
+      {
+        "kind": "letter",
+        "letter": "O",
+        "color": "#43A047"
+      },
+      {
+        "kind": "letter",
+        "letter": "P",
+        "color": "#EC407A"
+      },
+      {
+        "kind": "title"
+      }
+    ],
+    "description": "A gentle learning short for little ones: colors, numbers, shapes and letters.",
+    "status": "preview"
+  },
+  {
+    "id": "20261006-E-it-9964cfe8",
+    "date": "2026-10-06",
+    "channel": "kids_it",
+    "lang": "it",
+    "method": "E_kids",
+    "variant": {
+      "code": "E6",
+      "hook": "guess_game",
+      "theme": "sky",
+      "length": "long"
+    },
+    "topic": "lettere",
+    "title": "Lettere R - V",
+    "lines": [
+      "Impariamo le lettere!",
+      "Questa è la lettera R!",
+      "Questa è la lettera S!",
+      "Questa è la lettera T!",
+      "Questa è la lettera U!",
+      "Questa è la lettera V!",
+      "Bravissimo!"
+    ],
+    "tags": [],
+    "scenes": [
+      {
+        "kind": "title"
+      },
+      {
+        "kind": "letter",
+        "letter": "R",
+        "color": "#E53935"
+      },
+      {
+        "kind": "letter",
+        "letter": "S",
+        "color": "#1E88E5"
+      },
+      {
+        "kind": "letter",
+        "letter": "T",
+        "color": "#FB8C00"
+      },
+      {
+        "kind": "letter",
+        "letter": "U",
+        "color": "#1E88E5"
+      },
+      {
+        "kind": "letter",
+        "letter": "V",
+        "color": "#FDD835"
+      },
+      {
+        "kind": "title"
+      }
+    ],
+    "description": "Un breve video educativo per i più piccoli: colori, numeri, forme e lettere.",
+    "status": "preview"
+  },
+  {
+    "id": "20261006-E-it-f7adb4d8",
+    "date": "2026-10-06",
+    "channel": "kids_it",
+    "lang": "it",
+    "method": "E_kids",
+    "variant": {
+      "code": "E9",
+      "hook": "learn_together",
+      "theme": "sky",
+      "length": "long"
+    },
+    "topic": "colori",
+    "title": "Impariamo i colori: giallo, arancione, verde",
+    "lines": [
+      "Impariamo i colori!",
+      "Questo è il giallo!",
+      "Questo è il arancione!",
+      "Questo è il verde!",
+      "Questo è il rosso!",
+      "Questo è il rosa!",
+      "Bravissimo!"
+    ],
+    "tags": [],
+    "scenes": [
+      {
+        "kind": "title"
+      },
+      {
+        "kind": "color",
+        "color": "#FDD835",
+        "label": "giallo"
+      },
+      {
+        "kind": "color",
+        "color": "#FB8C00",
+        "label": "arancione"
+      },
+      {
+        "kind": "color",
+        "color": "#43A047",
+        "label": "verde"
+      },
+      {
+        "kind": "color",
+        "color": "#E53935",
+        "label": "rosso"
+      },
+      {
+        "kind": "color",
+        "color": "#EC407A",
+        "label": "rosa"
+      },
+      {
+        "kind": "title"
+      }
+    ],
+    "description": "Un breve video educativo per i più piccoli: colori, numeri, forme e lettere.",
+    "status": "preview"
   }
 ]
