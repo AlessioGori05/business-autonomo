@@ -1,0 +1,36 @@
+{
+  "en:meal prep for beginners": {
+    "lang": "en",
+    "topic": "meal prep for beginners",
+    "title": "Meal Prep Made Easy: Beginner’s Blueprint",
+    "subtitle": "Simple steps to plan, cook, and store meals for a healthier week.",
+    "intro": "Starting a meal‑prep routine can feel overwhelming, but with the right plan it becomes a powerful habit that saves time, money, and stress. This mini‑guide walks beginners through the essential steps: choosing balanced recipes, mastering batch cooking, organizing storage, and creating a weekly schedule that fits any lifestyle. No fancy equipment or culinary expertise required—just a few practical tricks and a bit of preparation. Follow these proven methods and watch your kitchen confidence grow day by day for lasting success.",
+    "slug": "meal-prep-made-easy-beginners-blueprint",
+    "pdf": "guides/en/meal-prep-made-easy-beginners-blueprint.pdf",
+    "funnel": "funnels/en/meal-prep-made-easy-beginners-blueprint.md",
+    "chapters": [
+      "Plan Your Menu",
+      "Shop Smart & Budget",
+      "Batch Cook Efficiently",
+      "Portion & Pack",
+      "Store & Reheat Safely"
+    ]
+  },
+  "it:battere la procrastinazione": {
+    "lang": "it",
+    "topic": "battere la procrastinazione",
+    "title": "Addio Procrastinazione: Guida Pratica",
+    "subtitle": "Strategie concrete per agire subito",
+    "intro": "Ti sei mai trovato a rimandare compiti importanti, sapendo che il tempo scorre ma senza riuscire a muovere un dito? Questa mini‑guida ti offre un percorso passo‑passo, basato su metodi testati, per spezzare il ciclo della procrastinazione e trasformare le tue intenzioni in azioni reali. Scoprirai come definire obiettivi chiari, gestire il tempo, ridurre le distrazioni e mantenere alta la motivazione, il tutto in pochi minuti al giorno. Preparati a prendere il controllo della tua produttività e a vedere risultati concreti fin da subito.",
+    "slug": "addio-procrastinazione-guida-pratica",
+    "pdf": "guides/it/addio-procrastinazione-guida-pratica.pdf",
+    "funnel": "funnels/it/addio-procrastinazione-guida-pratica.md",
+    "chapters": [
+      "Definisci Obiettivi Chiari",
+      "Usa la Tecnica del Pomodoro",
+      "Elimina le Distrazioni",
+      "Premia i Progressi",
+      "Rivedi e Adatta il Piano"
+    ]
+  }
+}

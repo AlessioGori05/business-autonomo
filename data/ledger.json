@@ -393,5 +393,608 @@
     ],
     "description": "Un breve video educativo per i più piccoli: colori, numeri, forme e lettere.",
     "status": "preview"
+  },
+  {
+    "id": "20261006-A-en-f3f26653",
+    "date": "2026-10-06",
+    "channel": "main_en",
+    "lang": "en",
+    "method": "A_viral",
+    "variant": {
+      "code": "A3",
+      "hook": "countdown",
+      "theme": "neon",
+      "length": "short"
+    },
+    "topic": "ocean mysteries",
+    "title": "Countdown to the Ocean’s Most Mysterious Secrets",
+    "lines": [
+      "Ready for the ocean's deepest secrets? Count down now!",
+      "3. Unexplained humming sounds echo from the abyss, scientists still puzzled.",
+      "2. Vanishing shipwrecks appear and disappear, leaving only ghostly legends.",
+      "1. The Great Pacific Garbage Patch, massive floating island of plastic, hides ecosystems.",
+      "Stay curious—our oceans hold more secrets than we can imagine."
+    ],
+    "tags": [
+      "ocean",
+      "mysteries",
+      "deepsea",
+      "shipwreck",
+      "garbagepatch",
+      "countdown",
+      "shorts",
+      "science"
+    ],
+    "description": "Explore three of the ocean’s strangest mysteries, from eerie deep‑sea sounds to disappearing shipwrecks. Discover why the Great Pacific Garbage Patch remains one of the most baffling marine phenomena.\n\nhttps://alessiogori05.github.io/business-autonomo/en/index.html\n\n\n#shorts #ocean #mysteries #deepsea",
+    "status": "preview"
+  },
+  {
+    "id": "20261006-B-en-d2a3e23c",
+    "date": "2026-10-06",
+    "channel": "main_en",
+    "lang": "en",
+    "method": "B_affiliate",
+    "variant": {
+      "code": "B1",
+      "hook": "problem_solution",
+      "theme": "sunset",
+      "length": "long"
+    },
+    "topic": "phone accessories",
+    "title": "Stop Phone Slips, Tangles & Lost Calls: 3 Simple Accessories",
+    "lines": [
+      "Your phone always slips out of your hand during the commute?",
+      "A weak grip makes every trip feel risky.",
+      "Add a sturdy grip case and protect your device instantly.",
+      "Tired of tangled cords when you charge on the go?",
+      "A magnetic charging cable keeps your plug aligned without fuss.",
+      "Ever miss a call because your headphones fall out?",
+      "Secure earbuds with a silicone ear‑hook for a snug fit.",
+      "These three accessories make daily phone use smoother and safer.",
+      "Upgrade now and enjoy hassle‑free moments everywhere.",
+      "Link in bio for the full list"
+    ],
+    "tags": [
+      "phone accessories",
+      "grip case",
+      "charging cable",
+      "earbuds",
+      "tech tips",
+      "smartphone hacks",
+      "mobile accessories",
+      "everyday solutions"
+    ],
+    "products": [
+      {
+        "name": "Sturdy grip phone case",
+        "search_query": "grip phone case",
+        "why": "Provides extra friction to prevent drops and adds a thin layer of protection.",
+        "check_before_buying": "Make sure it matches your phone’s dimensions and has cutouts for ports."
+      },
+      {
+        "name": "Magnetic charging cable",
+        "search_query": "magnetic phone charger",
+        "why": "Aligns automatically with the charging port, reducing wear on both cable and device.",
+        "check_before_buying": "Verify that the connector type (USB‑C, Lightning, or Micro‑USB) fits your phone."
+      },
+      {
+        "name": "Silicone ear‑hook for earbuds",
+        "search_query": "silicone ear hook earbuds",
+        "why": "Keeps earbuds securely in place during movement, improving sound stability.",
+        "check_before_buying": "Check the hook size fits your ear and works with your earbud model."
+      }
+    ],
+    "page_intro": "Welcome to our channel, where we share quick, practical tips to make your tech life easier. In this short, we tackle common phone annoyances and reveal three universal accessories that anyone can use to protect their device, simplify charging, and keep audio secure. No brand bias, just reliable solutions you can find at any store. Subscribe for more straightforward tech hacks and upgrades.",
+    "landing": "en/stop-phone-slips-tangles-lost-calls-3-simple-acces",
+    "description": "Discover three must‑have phone accessories that solve everyday frustrations—slipping, tangled cords, and loose earbuds. Simple upgrades, big impact.\n\nhttps://alessiogori05.github.io/business-autonomo/en/stop-phone-slips-tangles-lost-calls-3-simple-acces.html\nContains affiliate links.\n\n#shorts #phoneaccessories #gripcase #chargingcable",
+    "status": "preview"
+  },
+  {
+    "id": "20261006-C-en-0f834e0c",
+    "date": "2026-10-06",
+    "channel": "main_en",
+    "lang": "en",
+    "method": "C_leadmagnet",
+    "variant": {
+      "code": "C2",
+      "hook": "countdown",
+      "theme": "neon",
+      "length": "long"
+    },
+    "topic": "meal prep for beginners",
+    "title": "3-2-1 Meal Prep Countdown for Beginners",
+    "lines": [
+      "3... Start simple: pick a protein you love.",
+      "2... Choose two versatile veggies for flavor and nutrients.",
+      "1... Add a staple carb: rice, quinoa, or sweet potatoes.",
+      "Tip: Cook proteins in bulk, season once, store in airtight containers.",
+      "Tip: Pre-portion carbs and veggies to control servings and save time.",
+      "Tip: Use a single tray for roasting to simplify cleanup.",
+      "Label each container with date to keep food fresh longer.",
+      "Store meals in the fridge for up to four days, freeze extras.",
+      "Mix and match containers throughout the week for variety without extra cooking.",
+      "Free guide 'Meal Prep Made Easy: Beginner's Blueprint' - link in bio"
+    ],
+    "tags": [
+      "mealprep",
+      "beginners",
+      "cookingtips",
+      "easyrecipes",
+      "mealplanning",
+      "healthyfood",
+      "kitchenhacks",
+      "quickmeals"
+    ],
+    "guide": "meal-prep-made-easy-beginners-blueprint",
+    "description": "A quick, beginner-friendly countdown to master meal prepping. Follow three simple steps, plus three actionable tips from our free guide, and start eating healthier with less effort. Download the full blueprint via the link in bio!\n\nhttps://alessiogori05.github.io/business-autonomo/en/guide-meal-prep-made-easy-beginners-blueprint.html\n\n\n#shorts #mealprep #beginners #cookingtips",
+    "status": "preview"
+  },
+  {
+    "id": "20261006-D-en-4fa2c54f",
+    "date": "2026-10-06",
+    "channel": "main_en",
+    "lang": "en",
+    "method": "D_pod",
+    "variant": {
+      "code": "D5",
+      "hook": "mini_story",
+      "theme": "midnight",
+      "length": "short"
+    },
+    "topic": "Sweat now, pizza later, Pages turn, adventures begin, Pawsitive vibes, wagging hearts",
+    "title": "Playful Tee Trio: Gym, Books, Dogs",
+    "lines": [
+      "After a marathon workout, I imagined pizza waiting at home.",
+      "Sweat now, pizza later – perfect for gym lovers craving reward.",
+      "Pages turn, adventures begin – ideal for bookworms chasing new stories.",
+      "Pawsitive vibes, wagging hearts – great for dog owners spreading joy.",
+      "Find them via the link in bio"
+    ],
+    "tags": [
+      "tshirt designs",
+      "funny tees",
+      "gym apparel",
+      "book lover gift",
+      "dog lover shirt",
+      "shorts",
+      "fashion",
+      "gift ideas"
+    ],
+    "description": "Showcasing three fun t‑shirt designs that match active lifestyles, reading adventures, and dog‑loving hearts. Perfect gifts for fitness fans, book lovers, and pet parents. Grab yours now!\n\nhttps://alessiogori05.github.io/business-autonomo/en/index.html\n\n\n#shorts #tshirtdesigns #funnytees #gymapparel",
+    "status": "preview"
+  },
+  {
+    "id": "20261006-A-it-61b0d103",
+    "date": "2026-10-06",
+    "channel": "main_it",
+    "lang": "it",
+    "method": "A_viral",
+    "variant": {
+      "code": "A5",
+      "hook": "you_are_doing_it_wrong",
+      "theme": "sunset",
+      "length": "long"
+    },
+    "topic": "stranezze della storia",
+    "title": "Stai sbagliando la storia: 5 curiosità che non conosci",
+    "lines": [
+      "Stai sbagliando a credere che la storia sia tutta noiosa.",
+      "Scopri la strana storia delle piramidi di Giza, non solo sepolcri.",
+      "Le piramidi non furono costruite da schiavi, ma da lavoratori pagati.",
+      "Il tuo prossimo mito: Giulio Cesare non è nato nel 100 a.C.",
+      "In realtà nacque nel 100 a.C., ma il calendario era diverso.",
+      "Un altro errore comune: i vichinghi non indossavano elmi con corna.",
+      "Le loro armature erano di ferro e cuoio, niente corna.",
+      "Pensate che i dinosauri e gli umani convivessero? Sbagliato.",
+      "I dinosauri si estinsero 65 milioni di anni prima dell’uomo.",
+      "Correggi il tuo pensiero: la storia è piena di sorprese, non miti."
+    ],
+    "tags": [
+      "storia",
+      "curiosità",
+      "fatti",
+      "antico",
+      "miti",
+      "scienza",
+      "educazione",
+      "sorprese"
+    ],
+    "description": "Molti credono a versioni semplificate del passato, ma la realtà è più affascinante. Scopri cinque fatti sorprendenti e correggi le tue convinzioni.\n\nhttps://alessiogori05.github.io/business-autonomo/it/index.html\n\n\n#shorts #storia #curiosità #fatti",
+    "status": "preview"
+  },
+  {
+    "id": "20261006-B-it-aa89a0cf",
+    "date": "2026-10-06",
+    "channel": "main_it",
+    "lang": "it",
+    "method": "B_affiliate",
+    "variant": {
+      "code": "B3",
+      "hook": "problem_solution",
+      "theme": "midnight",
+      "length": "short"
+    },
+    "topic": "gadget da cucina sotto i 25 euro",
+    "title": "Gadget da cucina sotto 25€: risparmia tempo e spazio",
+    "lines": [
+      "Stanco di passare ore a pulire il piano di lavoro?",
+      "Questo set di spatole in silicone ti semplifica la cottura.",
+      "Un timer da cucina ti evita di bruciare le ricette.",
+      "Con un contenitore ermetico mantieni freschi gli avanzi più a lungo.",
+      "Scopri altri trucchi per risparmiare tempo e spazio.",
+      "Link nel profilo per la lista completa"
+    ],
+    "tags": [
+      "cucina",
+      "gadget",
+      "risparmio",
+      "cucinafacile",
+      "consigli",
+      "cucinaeconomica",
+      "trucchi",
+      "vitaquotidiana"
+    ],
+    "products": [
+      {
+        "name": "Spatole in silicone",
+        "search_query": "spatole silicone",
+        "why": "Le spatole flessibili non graffiano le pentole e si piegano per raggiungere gli angoli più stretti.",
+        "check_before_buying": "Verifica che siano resistenti al calore fino a 200 °C."
+      },
+      {
+        "name": "Timer da cucina",
+        "search_query": "timer cucina",
+        "why": "Un timer digitale ti avvisa quando è il momento di girare o togliere dal fuoco, evitando bruciature.",
+        "check_before_buying": "Assicurati che la durata massima sia sufficiente per le tue ricette."
+      },
+      {
+        "name": "Contenitore ermetico",
+        "search_query": "contenitore ermetico",
+        "why": "Mantiene gli avanzi freschi più a lungo, riducendo gli sprechi e ottimizzando lo spazio in frigorifero.",
+        "check_before_buying": "Controlla che la chiusura sia a prova di perdite."
+      }
+    ],
+    "page_intro": "Benvenuti sul nostro canale dedicato a consigli pratici per la vita di tutti i giorni. Qui troverete video brevi e utili su come ottimizzare le attività domestiche, soprattutto in cucina. Con suggerimenti facili da implementare, vi aiuteremo a risparmiare tempo, denaro e spazio, rendendo le vostre giornate più leggere e organizzate. Iscrivetevi per non perdere i prossimi trucchi!",
+    "landing": "it/gadget-da-cucina-sotto-25-risparmia-tempo-e-spazio",
+    "description": "Scopri tre gadget indispensabili per la tua cucina, tutti sotto i 25 euro. Spatole flessibili, timer preciso e contenitori ermetici per conservare al meglio. Ideali per chi vuole cucinare più veloce e mantenere l'ordine.\n\nhttps://alessiogori05.github.io/business-autonomo/it/gadget-da-cucina-sotto-25-risparmia-tempo-e-spazio.html\nContiene link di affiliazione.\n\n#shorts #cucina #gadget #risparmio",
+    "status": "preview"
+  },
+  {
+    "id": "20261006-C-it-8ebb3cad",
+    "date": "2026-10-06",
+    "channel": "main_it",
+    "lang": "it",
+    "method": "C_leadmagnet",
+    "variant": {
+      "code": "C9",
+      "hook": "countdown",
+      "theme": "neon",
+      "length": "long"
+    },
+    "topic": "battere la procrastinazione",
+    "title": "3-2-1: Sconfiggi la procrastinazione in pochi secondi",
+    "lines": [
+      "3. Inizia con la regola dei due minuti: agisci subito.",
+      "2. Usa il timer Pomodoro: 25 minuti di focus, 5 pause.",
+      "1. Premi il pulsante start e non guardare il telefono.",
+      "Blocca le notifiche: silenzia social e email per un'ora.",
+      "Prepara l'ambiente: scrivania ordinata, luce adeguata, acqua a portata.",
+      "Dividi il compito più grande in piccoli micro‑obiettivi giornalieri.",
+      "Premi te stesso: concediti una piccola ricompensa al completare ogni step.",
+      "Il trucco definitivo: scrivi la tua lista di priorità la sera prima.",
+      "Guida gratis 'Addio Procrastinazione: Guida Pratica' - link nel profilo"
+    ],
+    "tags": [
+      "procrastinazione",
+      "produttività",
+      "gestione del tempo",
+      "consigli pratici",
+      "motivazione",
+      "Pomodoro",
+      "focus",
+      "crescita personale"
+    ],
+    "guide": "addio-procrastinazione-guida-pratica",
+    "description": "Scopri tre strategie veloci per battere la procrastinazione, segui il conto alla rovescia e scarica la guida gratuita per trasformare le tue giornate.\n\nhttps://alessiogori05.github.io/business-autonomo/it/guide-addio-procrastinazione-guida-pratica.html\n\n\n#shorts #procrastinazione #produttività #gestionedeltempo",
+    "status": "preview"
+  },
+  {
+    "id": "20261006-D-it-a4e51298",
+    "date": "2026-10-06",
+    "channel": "main_it",
+    "lang": "it",
+    "method": "D_pod",
+    "variant": {
+      "code": "D5",
+      "hook": "mini_story",
+      "theme": "neon",
+      "length": "short"
+    },
+    "topic": "Debugga la vita, sorridi, Sollevando sogni, un kettlebell, Silenzio è il mio superpotere",
+    "title": "T-shirt che raccontano chi sei in 5 secondi",
+    "lines": [
+      "Mi sono incastrato in un bug, ma ho trovato la soluzione.",
+      "'Debugga la vita, sorridi': per chi ama programmare e sorridere sempre.",
+      "'Sollevando sogni, un kettlebell': perfetta per gli appassionati di fitness e motivazione.",
+      "'Silenzio è il mio superpotere': ideale per chi ama la quiete e la concentrazione.",
+      "Le trovi col link nel profilo"
+    ],
+    "tags": [
+      "tshirt",
+      "design",
+      "stile",
+      "fashion",
+      "programmazione",
+      "fitness",
+      "motivazione",
+      "silenzio"
+    ],
+    "description": "Scopri tre magliette originali che parlano della tua vita: per programmatori, sportivi e amanti del silenzio. Trova il link in bio.\n\nhttps://alessiogori05.github.io/business-autonomo/it/index.html\n\n\n#shorts #tshirt #design #stile",
+    "status": "preview"
+  },
+  {
+    "id": "20261006-E-en-e0a8b52d",
+    "date": "2026-10-06",
+    "channel": "kids_en",
+    "lang": "en",
+    "method": "E_kids",
+    "variant": {
+      "code": "E1",
+      "hook": "guess_game",
+      "theme": "candy",
+      "length": "short"
+    },
+    "topic": "animal sounds and facts",
+    "title": "Gentle Cat Facts for Little Ones",
+    "lines": [
+      "Cats have soft fur and whiskers.",
+      "They purr when they feel happy.",
+      "Cats love to chase tiny moving toys.",
+      "A cat's eyes shine in the dark.",
+      "Kittens drink milk from their mother.",
+      "Cats sleep many hours to stay healthy."
+    ],
+    "tags": [],
+    "scenes": [
+      {
+        "kind": "animal",
+        "label": "cat"
+      },
+      {
+        "kind": "animal",
+        "label": "cat"
+      },
+      {
+        "kind": "animal",
+        "label": "cat"
+      },
+      {
+        "kind": "animal",
+        "label": "cat"
+      },
+      {
+        "kind": "animal",
+        "label": "cat"
+      },
+      {
+        "kind": "animal",
+        "label": "cat"
+      }
+    ],
+    "description": "A gentle learning short for little ones: colors, numbers, shapes and letters.",
+    "status": "preview"
+  },
+  {
+    "id": "20261006-E-en-931573e6",
+    "date": "2026-10-06",
+    "channel": "kids_en",
+    "lang": "en",
+    "method": "E_kids",
+    "variant": {
+      "code": "E10",
+      "hook": "guess_game",
+      "theme": "meadow",
+      "length": "short"
+    },
+    "topic": "counting",
+    "title": "Count to 10 with red squares",
+    "lines": [
+      "Let's count to 10 together!",
+      "One!",
+      "Two!",
+      "Three!",
+      "Four!",
+      "Five!",
+      "Six!",
+      "Seven!",
+      "Eight!",
+      "Nine!",
+      "Ten!",
+      "Great job! You counted to 10!"
+    ],
+    "tags": [],
+    "scenes": [
+      {
+        "kind": "title"
+      },
+      {
+        "kind": "count",
+        "n": 1,
+        "shape": "square",
+        "color": "#E53935"
+      },
+      {
+        "kind": "count",
+        "n": 2,
+        "shape": "square",
+        "color": "#E53935"
+      },
+      {
+        "kind": "count",
+        "n": 3,
+        "shape": "square",
+        "color": "#E53935"
+      },
+      {
+        "kind": "count",
+        "n": 4,
+        "shape": "square",
+        "color": "#E53935"
+      },
+      {
+        "kind": "count",
+        "n": 5,
+        "shape": "square",
+        "color": "#E53935"
+      },
+      {
+        "kind": "count",
+        "n": 6,
+        "shape": "square",
+        "color": "#E53935"
+      },
+      {
+        "kind": "count",
+        "n": 7,
+        "shape": "square",
+        "color": "#E53935"
+      },
+      {
+        "kind": "count",
+        "n": 8,
+        "shape": "square",
+        "color": "#E53935"
+      },
+      {
+        "kind": "count",
+        "n": 9,
+        "shape": "square",
+        "color": "#E53935"
+      },
+      {
+        "kind": "count",
+        "n": 10,
+        "shape": "square",
+        "color": "#E53935"
+      },
+      {
+        "kind": "count",
+        "n": 10,
+        "shape": "square",
+        "color": "#E53935"
+      }
+    ],
+    "description": "A gentle learning short for little ones: colors, numbers, shapes and letters.",
+    "status": "preview"
+  },
+  {
+    "id": "20261006-E-it-c095a7f1",
+    "date": "2026-10-06",
+    "channel": "kids_it",
+    "lang": "it",
+    "method": "E_kids",
+    "variant": {
+      "code": "E3",
+      "hook": "guess_game",
+      "theme": "candy",
+      "length": "long"
+    },
+    "topic": "forme",
+    "title": "Forme per bambini: triangolo, stella, cuore",
+    "lines": [
+      "Scopriamo le forme!",
+      "Un triangolo!",
+      "Una stella!",
+      "Un cuore!",
+      "Un cerchio!",
+      "Ora conosci le forme!"
+    ],
+    "tags": [],
+    "scenes": [
+      {
+        "kind": "title"
+      },
+      {
+        "kind": "shape",
+        "shape": "triangle",
+        "color": "#EC407A",
+        "label": "triangolo"
+      },
+      {
+        "kind": "shape",
+        "shape": "star",
+        "color": "#E53935",
+        "label": "stella"
+      },
+      {
+        "kind": "shape",
+        "shape": "heart",
+        "color": "#8E24AA",
+        "label": "cuore"
+      },
+      {
+        "kind": "shape",
+        "shape": "circle",
+        "color": "#43A047",
+        "label": "cerchio"
+      },
+      {
+        "kind": "title"
+      }
+    ],
+    "description": "Un breve video educativo per i più piccoli: colori, numeri, forme e lettere.",
+    "status": "preview"
+  },
+  {
+    "id": "20261006-E-it-2fd129e3",
+    "date": "2026-10-06",
+    "channel": "kids_it",
+    "lang": "it",
+    "method": "E_kids",
+    "variant": {
+      "code": "E10",
+      "hook": "guess_game",
+      "theme": "meadow",
+      "length": "short"
+    },
+    "topic": "animali e curiosità",
+    "title": "Il cane e i suoi amici",
+    "lines": [
+      "Il cane ha quattro zampe morbide.",
+      "Ama correre e giocare nel giardino.",
+      "Il suo naso è molto profumato.",
+      "Scodinzola quando è felice e contento.",
+      "Il cane ascolta i suoni delicati.",
+      "Ama le coccole e le carezze dolci."
+    ],
+    "tags": [],
+    "scenes": [
+      {
+        "kind": "animal",
+        "label": "cane"
+      },
+      {
+        "kind": "animal",
+        "label": "cane"
+      },
+      {
+        "kind": "animal",
+        "label": "cane"
+      },
+      {
+        "kind": "animal",
+        "label": "cane"
+      },
+      {
+        "kind": "animal",
+        "label": "cane"
+      },
+      {
+        "kind": "animal",
+        "label": "cane"
+      }
+    ],
+    "description": "Un breve video educativo per i più piccoli: colori, numeri, forme e lettere.",
+    "status": "preview"
   }
 ]

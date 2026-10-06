@@ -1,0 +1,228 @@
+{
+  "2026-W41": {
+    "en": [
+      {
+        "slogan": "Brewed optimism in every sip",
+        "audience": "coffee lovers",
+        "listing_title": "Brewed Optimism Coffee Mug – Cheerful Quote",
+        "tags": [
+          "coffee",
+          "mug",
+          "tshirt",
+          "gift",
+          "positive",
+          "humor",
+          "morning",
+          "beverage",
+          "illustration",
+          "printable"
+        ],
+        "description": "Start your day with a smile and a warm cup. This witty design is perfect for coffee enthusiasts who love a positive boost.",
+        "file": "brewed-optimism-in-every-sip.png",
+        "preview": "docs/pod/2026-W41/en/brewed-optimism-in-every-sip.png"
+      },
+      {
+        "slogan": "Quietly conquering the world",
+        "audience": "introverts",
+        "listing_title": "Quietly Conquering T-Shirt – Introvert Humor",
+        "tags": [
+          "introvert",
+          "quiet",
+          "humor",
+          "tshirt",
+          "gift",
+          "shy",
+          "loner",
+          "personality",
+          "whimsical",
+          "apparel"
+        ],
+        "description": "Embrace the power of quiet confidence with a playful nod. Ideal for introverts who appreciate subtle humor.",
+        "file": "quietly-conquering-the-world.png",
+        "preview": "docs/pod/2026-W41/en/quietly-conquering-the-world.png"
+      },
+      {
+        "slogan": "Pawsitive vibes, wagging hearts",
+        "audience": "dog parents",
+        "listing_title": "Pawsitive Vibes Tee – Dog Parent Gift",
+        "tags": [
+          "dog",
+          "pet",
+          "parent",
+          "gift",
+          "tee",
+          "whimsical",
+          "paws",
+          "animal",
+          "love",
+          "print"
+        ],
+        "description": "Celebrate the unconditional love of a wagging tail. A perfect gift for proud dog parents who cherish pawsitive vibes.",
+        "file": "pawsitive-vibes-wagging-hearts.png",
+        "preview": "docs/pod/2026-W41/en/pawsitive-vibes-wagging-hearts.png"
+      },
+      {
+        "slogan": "Code, coffee, repeat: my mantra",
+        "audience": "programmers",
+        "listing_title": "Code Coffee Repeat Shirt – Developer Life",
+        "tags": [
+          "programmer",
+          "code",
+          "developer",
+          "tech",
+          "gift",
+          "shirt",
+          "humor",
+          "coding",
+          "coffee",
+          "geek"
+        ],
+        "description": "Fuel your coding marathons with caffeine and confidence. This shirt speaks the language of developers everywhere.",
+        "file": "code-coffee-repeat-my-mantra.png",
+        "preview": "docs/pod/2026-W41/en/code-coffee-repeat-my-mantra.png"
+      },
+      {
+        "slogan": "Sweat now, pizza later",
+        "audience": "gym humor",
+        "listing_title": "Sweat Now Pizza Later Tee – Gym Fun",
+        "tags": [
+          "gym",
+          "fitness",
+          "workout",
+          "humor",
+          "tee",
+          "gift",
+          "motivation",
+          "sweat",
+          "funny",
+          "exercise"
+        ],
+        "description": "Turn sweat sessions into a joke you can wear. Perfect for gym-goers who enjoy a light‑hearted reminder of reward.",
+        "file": "sweat-now-pizza-later.png",
+        "preview": "docs/pod/2026-W41/en/sweat-now-pizza-later.png"
+      },
+      {
+        "slogan": "Pages turn, adventures begin",
+        "audience": "book lovers",
+        "listing_title": "Pages Turn Adventures Begin T-Shirt – Reader",
+        "tags": [
+          "books",
+          "reading",
+          "reader",
+          "bookworm",
+          "tee",
+          "gift",
+          "quote",
+          "whimsical",
+          "literature",
+          "apparel"
+        ],
+        "description": "Let every turned page spark a new adventure. A charming tee for readers who live between the lines.",
+        "file": "pages-turn-adventures-begin.png",
+        "preview": "docs/pod/2026-W41/en/pages-turn-adventures-begin.png"
+      }
+    ],
+    "it": [
+      {
+        "slogan": "Silenzio è il mio superpotere",
+        "audience": "introversi",
+        "listing_title": "Maglietta 'Silenzio è il mio superpotere' – per introversi",
+        "tags": [
+          "introversi",
+          "silenzio",
+          "superpotere",
+          "comfort",
+          "stile minimalista",
+          "maglietta motivazionale",
+          "quietude",
+          "personalità riservata",
+          "vestiti comodi",
+          "regalo introverso"
+        ],
+        "description": "Abbraccia la tua natura tranquilla con un tocco di potere silenzioso. Perfetta per chi preferisce la calma al caos.",
+        "file": "silenzio-e-il-mio-superpotere.png",
+        "preview": "docs/pod/2026-W41/it/silenzio-e-il-mio-superpotere.png"
+      },
+      {
+        "slogan": "Coda scodinzola, cuore felice",
+        "audience": "genitori di cani",
+        "listing_title": "Maglietta 'Coda scodinzola, cuore felice' – per amanti dei cani",
+        "tags": [
+          "cani",
+          "coda",
+          "cuore felice",
+          "amanti dei cani",
+          "pet lover",
+          "maglietta animale",
+          "vita da cane",
+          "cucciolo",
+          "regalo per proprietari",
+          "stile casual"
+        ],
+        "description": "Mostra al mondo l’amore che condividi con il tuo amico a quattro zampe. Un design che fa scodinzolare anche i cuori.",
+        "file": "coda-scodinzola-cuore-felice.png",
+        "preview": "docs/pod/2026-W41/it/coda-scodinzola-cuore-felice.png"
+      },
+      {
+        "slogan": "Debugga la vita, sorridi",
+        "audience": "programmatore",
+        "listing_title": "Maglietta 'Debugga la vita, sorridi' – per programmatori",
+        "tags": [
+          "programmazione",
+          "debug",
+          "vita",
+          "sorriso",
+          "coder",
+          "maglietta tech",
+          "nerd",
+          "software",
+          "coding humor",
+          "regalo programmatore"
+        ],
+        "description": "Trasforma ogni bug in un’opportunità per ridere. Ideale per chi scrive codice e ama il buon umore.",
+        "file": "debugga-la-vita-sorridi.png",
+        "preview": "docs/pod/2026-W41/it/debugga-la-vita-sorridi.png"
+      },
+      {
+        "slogan": "Sollevando sogni, un kettlebell",
+        "audience": "palestra",
+        "listing_title": "Maglietta 'Sollevando sogni, un kettlebell' – per appassionati di palestra",
+        "tags": [
+          "palestra",
+          "kettlebell",
+          "fitness",
+          "allenamento",
+          "sogni",
+          "motivazione",
+          "maglietta sportiva",
+          "gym life",
+          "muscoli",
+          "regalo sportivo"
+        ],
+        "description": "Porta la tua determinazione in palestra con un tocco di sogno. Perfetta per chi trasforma il sudore in soddisfazione.",
+        "file": "sollevando-sogni-un-kettlebell.png",
+        "preview": "docs/pod/2026-W41/it/sollevando-sogni-un-kettlebell.png"
+      },
+      {
+        "slogan": "Pagine aperte, mondi infiniti",
+        "audience": "lettori",
+        "listing_title": "Maglietta 'Pagine aperte, mondi infiniti' – per lettori",
+        "tags": [
+          "lettori",
+          "libri",
+          "pagine",
+          "mondi infiniti",
+          "letteratura",
+          "maglietta lettura",
+          "book lover",
+          "stile bibliotecario",
+          "regalo lettore",
+          "cultura"
+        ],
+        "description": "Ogni pagina è una porta verso un nuovo universo. Indossa questa maglietta e celebra l’amore per la lettura.",
+        "file": "pagine-aperte-mondi-infiniti.png",
+        "preview": "docs/pod/2026-W41/it/pagine-aperte-mondi-infiniti.png"
+      }
+    ]
+  }
+}
