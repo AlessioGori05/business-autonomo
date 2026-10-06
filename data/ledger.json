@@ -213,5 +213,185 @@
     ],
     "description": "Un breve video educativo per i più piccoli: colori, numeri, forme e lettere.",
     "status": "preview"
+  },
+  {
+    "id": "20261006-E-en-1e5c1070",
+    "date": "2026-10-06",
+    "channel": "kids_en",
+    "lang": "en",
+    "method": "E_kids",
+    "variant": {
+      "code": "E5",
+      "hook": "guess_game",
+      "theme": "candy",
+      "length": "long"
+    },
+    "topic": "letters",
+    "title": "Letters J - N",
+    "lines": [
+      "Let's learn letters!",
+      "This is the letter J!",
+      "This is the letter K!",
+      "This is the letter L!",
+      "This is the letter M!",
+      "This is the letter N!",
+      "Great job!"
+    ],
+    "tags": [],
+    "scenes": [
+      {
+        "kind": "title"
+      },
+      {
+        "kind": "letter",
+        "letter": "J",
+        "color": "#43A047"
+      },
+      {
+        "kind": "letter",
+        "letter": "K",
+        "color": "#43A047"
+      },
+      {
+        "kind": "letter",
+        "letter": "L",
+        "color": "#43A047"
+      },
+      {
+        "kind": "letter",
+        "letter": "M",
+        "color": "#FDD835"
+      },
+      {
+        "kind": "letter",
+        "letter": "N",
+        "color": "#1E88E5"
+      },
+      {
+        "kind": "title"
+      }
+    ],
+    "description": "A gentle learning short for little ones: colors, numbers, shapes and letters.",
+    "status": "preview"
+  },
+  {
+    "id": "20261006-E-it-81ce35f7",
+    "date": "2026-10-06",
+    "channel": "kids_it",
+    "lang": "it",
+    "method": "E_kids",
+    "variant": {
+      "code": "E5",
+      "hook": "learn_together",
+      "theme": "candy",
+      "length": "long"
+    },
+    "topic": "lettere",
+    "title": "Lettere S - W",
+    "lines": [
+      "Impariamo le lettere!",
+      "Questa è la lettera S!",
+      "Questa è la lettera T!",
+      "Questa è la lettera U!",
+      "Questa è la lettera V!",
+      "Questa è la lettera W!",
+      "Bravissimo!"
+    ],
+    "tags": [],
+    "scenes": [
+      {
+        "kind": "title"
+      },
+      {
+        "kind": "letter",
+        "letter": "S",
+        "color": "#43A047"
+      },
+      {
+        "kind": "letter",
+        "letter": "T",
+        "color": "#EC407A"
+      },
+      {
+        "kind": "letter",
+        "letter": "U",
+        "color": "#E53935"
+      },
+      {
+        "kind": "letter",
+        "letter": "V",
+        "color": "#FDD835"
+      },
+      {
+        "kind": "letter",
+        "letter": "W",
+        "color": "#EC407A"
+      },
+      {
+        "kind": "title"
+      }
+    ],
+    "description": "Un breve video educativo per i più piccoli: colori, numeri, forme e lettere.",
+    "status": "preview"
+  },
+  {
+    "id": "20261006-E-it-617f2e1b",
+    "date": "2026-10-06",
+    "channel": "kids_it",
+    "lang": "it",
+    "method": "E_kids",
+    "variant": {
+      "code": "E8",
+      "hook": "sing_along",
+      "theme": "sky",
+      "length": "short"
+    },
+    "topic": "colori",
+    "title": "Impariamo i colori: rosa, giallo, verde",
+    "lines": [
+      "Impariamo i colori!",
+      "Questo è il rosa!",
+      "Questo è il giallo!",
+      "Questo è il verde!",
+      "Questo è il rosso!",
+      "Questo è il viola!",
+      "Bravissimo!"
+    ],
+    "tags": [],
+    "scenes": [
+      {
+        "kind": "title"
+      },
+      {
+        "kind": "color",
+        "color": "#EC407A",
+        "label": "rosa"
+      },
+      {
+        "kind": "color",
+        "color": "#FDD835",
+        "label": "giallo"
+      },
+      {
+        "kind": "color",
+        "color": "#43A047",
+        "label": "verde"
+      },
+      {
+        "kind": "color",
+        "color": "#E53935",
+        "label": "rosso"
+      },
+      {
+        "kind": "color",
+        "color": "#8E24AA",
+        "label": "viola"
+      },
+      {
+        "kind": "title"
+      }
+    ],
+    "description": "Un breve video educativo per i più piccoli: colori, numeri, forme e lettere.",
+    "status": "preview"
   }
 ]
