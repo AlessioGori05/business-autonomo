@@ -94,7 +94,7 @@ def produce(alloc, ck, mk, yt, pending):
     extra, pod_imgs = {}, None
 
     data, problems = None, []
-    for _attempt in range(2):
+    for _attempt in range(3):
         topic = G.pick_topic(m, lang, recent_topics)
         if mk == "A_viral":
             data = G.gen_viral(lang, topic, variant, past_titles)
@@ -120,6 +120,9 @@ def produce(alloc, ck, mk, yt, pending):
         if not data:
             continue
         problems = qc.check(data, past_titles, kids=kids)
+        # seconda verifica con l'AI per i contenuti con affermazioni (non per conteggi/colori/forme/lettere)
+        if not problems and (mk in ("A_viral", "B_affiliate", "C_leadmagnet") or data.get("animal")):
+            problems = qc.fact_check({**data, "products": data.get("products")}, llm.ask_json)
         if mk == "D_pod" and pod_imgs and len(data.get("lines", [])) < len(pod_imgs) + 1:
             problems.append("script POD troppo corto per i design")
         if not problems:

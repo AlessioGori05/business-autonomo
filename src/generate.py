@@ -27,7 +27,9 @@ SYSTEM = (
     "You write ORIGINAL, genuinely useful content. Rules: never invent statistics; only include "
     "facts that are widely established and verifiable; no medical, legal or financial advice beyond "
     "common-sense tips; no brand names, celebrities, copyrighted characters, song lyrics or quotes; "
-    "no clickbait that the video does not deliver; family-friendly language."
+    "no clickbait that the video does not deliver; family-friendly language. "
+    "Every line must be accurate on its own; never present myths, legends or unexplained rumours as facts; "
+    "never contradict an earlier line; prefer fewer, solid facts over sensational ones."
 )
 
 

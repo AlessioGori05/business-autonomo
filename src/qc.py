@@ -46,3 +46,26 @@ def check(item: dict, past_titles: list, kids: bool = False) -> list[str]:
         if re.search(r"link|bio|profil|subscribe|iscriviti|compra|buy", text):
             problems.append("contenuto bambini con invito all'azione/link (vietato)")
     return problems
+
+
+FACTCHECK_SYSTEM = (
+    "You are a strict fact-checker and editor for short educational videos. You reject anything that is "
+    "false, disputed, a myth or legend presented as fact, internally contradictory, misleading, "
+    "unsafe advice, or confusing. You are conservative: when unsure, reject."
+)
+
+
+def fact_check(item: dict, ask_json) -> list[str]:
+    """Seconda verifica con l'AI. Restituisce i problemi trovati (lista vuota = OK)."""
+    script = "\n".join(f"{n + 1}. {l}" for n, l in enumerate(item.get("lines", [])))
+    prods = item.get("products") or []
+    extra = "\nProducts:\n" + "\n".join(f"- {p.get('name')}: {p.get('why')}" for p in prods) if prods else ""
+    res = ask_json(FACTCHECK_SYSTEM,
+                   f"Title: {item.get('title')}\nScript:\n{script}{extra}\n\n"
+                   "Check every claim. Return JSON: {\"verdict\": \"ok\" or \"reject\", \"issues\": [short strings]}",
+                   temperature=0.1)
+    if not isinstance(res, dict):
+        return ["verifica dei fatti non disponibile"]
+    if str(res.get("verdict", "")).lower() != "ok":
+        return ["verifica fatti: " + "; ".join(map(str, res.get("issues") or ["respinto"]))[:300]]
+    return []
