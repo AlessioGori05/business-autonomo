@@ -96,20 +96,55 @@ def _gemini(system: str, user: str, temperature: float) -> str | None:
     return None
 
 
+_groq_models: list[str] | None = None
+
+
+def groq_models(key: str) -> list[str]:
+    """Modelli Groq configurati + quelli testuali disponibili oggi (i nomi cambiano spesso)."""
+    global _groq_models
+    if _groq_models is not None:
+        return _groq_models
+    pref = settings()["llm"].get("groq_models") or []
+    avail = []
+    try:
+        r = requests.get("https://api.groq.com/openai/v1/models", headers={"Authorization": f"Bearer {key}"}, timeout=30)
+        r.raise_for_status()
+        avail = [m["id"] for m in r.json().get("data", []) if m.get("active", True)
+                 and not re.search(r"whisper|tts|guard|vision|playai|orpheus|compound|embed", m["id"])]
+    except Exception as e:  # noqa: BLE001
+        log(f"Elenco modelli Groq non disponibile: {e}")
+
+    def rank(m):
+        size = max([int(x) for x in re.findall(r"(\d+)b", m)] or [0])
+        return (m in pref, "gpt-oss" in m or "llama" in m or "qwen" in m, size)
+    ordered = sorted(set(avail) | set(pref if not avail else [p for p in pref if p in avail]), key=rank, reverse=True)
+    _groq_models = ordered or pref or ["llama-3.3-70b-versatile"]
+    log(f"Modelli Groq in uso: {_groq_models[:3]}")
+    return _groq_models
+
+
 def _groq(system: str, user: str, temperature: float) -> str | None:
     key = os.environ.get("GROQ_API_KEY")
     if not key:
         return None
-    for model in settings()["llm"].get("groq_models", ["llama-3.3-70b-versatile"]):
+    for model in groq_models(key)[:3]:
         try:
             r = requests.post(GROQ_URL, headers={"Authorization": f"Bearer {key}"}, timeout=120,
                               json={"model": model, "temperature": temperature,
                                     "response_format": {"type": "json_object"},
                                     "messages": [{"role": "system", "content": system},
                                                  {"role": "user", "content": user}]})
+            if r.status_code == 429:
+                time.sleep(20)
+                r = requests.post(GROQ_URL, headers={"Authorization": f"Bearer {key}"}, timeout=120,
+                                  json={"model": model, "temperature": temperature,
+                                        "response_format": {"type": "json_object"},
+                                        "messages": [{"role": "system", "content": system},
+                                                     {"role": "user", "content": user}]})
             if not r.ok:
                 log(f"Groq {model}: HTTP {r.status_code} {r.text[:200]!r}")
                 continue
+            time.sleep(2)
             return r.json()["choices"][0]["message"]["content"]
         except Exception as e:  # noqa: BLE001
             log(f"Groq {model} errore: {e}")
