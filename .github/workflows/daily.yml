@@ -8,7 +8,6 @@ on:
 permissions:
   contents: write
   issues: write
-  models: read
 
 concurrency:
   group: business-state
@@ -21,6 +20,7 @@ jobs:
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
       PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
       YT_MAIN_EN_CLIENT_ID: ${{ secrets.YT_MAIN_EN_CLIENT_ID }}
       YT_MAIN_EN_CLIENT_SECRET: ${{ secrets.YT_MAIN_EN_CLIENT_SECRET }}

@@ -2,7 +2,7 @@
 
 Tempo totale: 1-2 ore. Puoi farla a tappe: **ogni pezzo che colleghi si attiva da solo**, il resto continua a lavorare in modalità anteprima.
 
-Ordine consigliato: **1 → 2 → 3** (il sistema gira già) → 4-6 (YouTube) → 7-9 (guadagni) → 10 (extra).
+Ordine consigliato: **1 → 2 → 3 → 3b** (il sistema gira già) → 4-6 (YouTube) → 7-9 (guadagni) → 10 (extra).
 
 ---
 
@@ -31,7 +31,15 @@ Sul sito di GitHub, nel repository:
 3. Dopo ~10-20 minuti apri l'esecuzione: in fondo, sezione **Artifacts**, scarichi i video prodotti (anteprime, perché YouTube non è ancora collegato).
 4. Vai su **Issues**: troverai i report e le richieste del bot. Attiva le email in *Watch → All activity* (in alto a destra nel repository) se non le ricevi.
 
-Da qui in poi il sistema gira ogni giorno da solo. L'AI che scrive i testi è **GitHub Models**, gratuita e già inclusa: non serve nessuna chiave.
+Da qui in poi il sistema gira ogni giorno da solo.
+
+## 3b. Chiave gratuita per l'AI che scrive i testi (3 min) — obbligatoria
+
+1. Vai su https://aistudio.google.com/apikey e accedi con il tuo account Google.
+2. **Create API key** → copia la chiave.
+3. Su GitHub: **Settings → Secrets and variables → Actions → New repository secret** → nome `GEMINI_API_KEY`, valore: la chiave → **Add secret**.
+
+È gratuita (piano Flash di Google, nessuna carta richiesta). Senza questa chiave il bot produce solo i video per bambini, che non hanno bisogno dell'AI.
 
 ---
 
@@ -126,7 +134,7 @@ Queste piattaforme non offrono un sistema gratuito per caricare i design in auto
 | Segreto / impostazione | A cosa serve | Dove si ottiene |
 |---|---|---|
 | `PEXELS_API_KEY` (segreto) | Sfondi video reali invece dei colori sfumati: video più curati | https://www.pexels.com/api/ |
-| `GEMINI_API_KEY` (segreto) | AI di riserva se GitHub Models è al limite | https://aistudio.google.com/apikey |
+| `GROQ_API_KEY` (segreto) | AI di riserva se Gemini è al limite | https://console.groq.com/keys |
 | `goatcounter_code` (settings) | Conta visite e click su link affiliati e guide | https://www.goatcounter.com |
 
 ---

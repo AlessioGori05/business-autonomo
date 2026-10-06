@@ -8,7 +8,7 @@ Sistema che crea, pubblica, misura e ottimizza **da solo** più micro-business o
 
 | Ora (Italia) | Workflow | Cosa succede |
 |---|---|---|
-| 08:17 | `1 - Produzione giornaliera` | Sceglie i metodi in base alle quote, scrive i testi con AI gratuita, controllo qualità, voce, video 1080x1920, caricamento su YouTube, aggiorna il sito |
+| 08:17 | `1 - Produzione giornaliera` | Sceglie i metodi in base alle quote, scrive i testi con AI gratuita (Google Gemini, piano free), controllo qualità, voce, video 1080x1920, caricamento su YouTube, aggiorna il sito |
 | 20:43 | `2 - KPI e report serale` | Legge visualizzazioni, durata media, engagement, ricavi; valuta le varianti; ti manda il **report di 3 righe + tabella KPI** |
 | Lunedì 07:07 | `3 - Riallocazione settimanale` | Sposta le quote verso i metodi che rendono di più, taglia/ferma quelli negativi, **report settimanale** con motivazioni |
 | Quando commenti | `4 - Approvazione video bambini` | `/approva` pubblica, `/rifiuta` scarta |

@@ -73,12 +73,13 @@ site:
 
 # ---------------------------------------------------------------------
 #  Intelligenza artificiale gratuita per scrivere i testi
-#  1) GitHub Models (gratis, usa il token automatico di GitHub Actions)
-#  2) Google Gemini free tier (opzionale, segreto GEMINI_API_KEY)
+#  1) Google Gemini, piano gratuito (segreto GEMINI_API_KEY) - il modello Flash più recente è scelto da solo
+#  2) Groq, piano gratuito (segreto GROQ_API_KEY, facoltativo) come riserva
+#  (GitHub Models non esiste più: chiuso da GitHub il 30/07/2026)
 # ---------------------------------------------------------------------
 llm:
-  github_models: ["openai/gpt-4.1-mini", "openai/gpt-4o-mini", "meta/Llama-3.3-70B-Instruct"]
-  gemini_model: "gemini-2.0-flash"
+  gemini_models: []          # vuoto = scelta automatica; oppure es. ["gemini-2.5-flash"]
+  groq_models: ["llama-3.3-70b-versatile"]
   temperature: 0.9
 
 # ---------------------------------------------------------------------

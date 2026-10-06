@@ -211,7 +211,7 @@ def cmd_daily():
     cfg = settings()
     alloc = decide.load_alloc()
     if not llm.available():
-        _daylog_add(None, warning="Nessun modello AI configurato: serve il permesso 'models: read' nel workflow o il segreto GEMINI_API_KEY")
+        _daylog_add(None, warning="Nessun modello AI configurato: manca il segreto GEMINI_API_KEY (chiave gratuita da aistudio.google.com)")
     for ck, ch in cfg["channels"].items():
         plan = decide.daily_plan(alloc, ck)
         if not plan:
