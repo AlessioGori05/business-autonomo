@@ -1,0 +1,68 @@
+name: 1 - Produzione giornaliera
+
+on:
+  schedule:
+    - cron: "17 6 * * *"     # ogni giorno alle 08:17 ora italiana (06:17 UTC)
+  workflow_dispatch:          # avvio manuale dal tab Actions
+
+permissions:
+  contents: write
+  issues: write
+  models: read
+
+concurrency:
+  group: business-state
+  cancel-in-progress: false
+
+jobs:
+  daily:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+      YT_MAIN_EN_CLIENT_ID: ${{ secrets.YT_MAIN_EN_CLIENT_ID }}
+      YT_MAIN_EN_CLIENT_SECRET: ${{ secrets.YT_MAIN_EN_CLIENT_SECRET }}
+      YT_MAIN_EN_REFRESH_TOKEN: ${{ secrets.YT_MAIN_EN_REFRESH_TOKEN }}
+      YT_MAIN_IT_CLIENT_ID: ${{ secrets.YT_MAIN_IT_CLIENT_ID }}
+      YT_MAIN_IT_CLIENT_SECRET: ${{ secrets.YT_MAIN_IT_CLIENT_SECRET }}
+      YT_MAIN_IT_REFRESH_TOKEN: ${{ secrets.YT_MAIN_IT_REFRESH_TOKEN }}
+      YT_KIDS_EN_CLIENT_ID: ${{ secrets.YT_KIDS_EN_CLIENT_ID }}
+      YT_KIDS_EN_CLIENT_SECRET: ${{ secrets.YT_KIDS_EN_CLIENT_SECRET }}
+      YT_KIDS_EN_REFRESH_TOKEN: ${{ secrets.YT_KIDS_EN_REFRESH_TOKEN }}
+      YT_KIDS_IT_CLIENT_ID: ${{ secrets.YT_KIDS_IT_CLIENT_ID }}
+      YT_KIDS_IT_CLIENT_SECRET: ${{ secrets.YT_KIDS_IT_CLIENT_SECRET }}
+      YT_KIDS_IT_REFRESH_TOKEN: ${{ secrets.YT_KIDS_IT_REFRESH_TOKEN }}
+      MSG: produzione
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Strumenti di sistema
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-dejavu-core > /dev/null
+      - name: Librerie Python
+        run: pip install -q -r requirements.txt
+      - name: Produci e pubblica i contenuti di oggi
+        run: python -m src.run daily
+      - name: Anteprime video e design POD (scaricabili per 14 giorni)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: contenuti-${{ github.run_number }}
+          path: |
+            out/videos
+            out/pod
+          retention-days: 14
+          if-no-files-found: ignore
+      - name: Salva stato, sito e report nel repository
+        if: always()
+        run: |
+          git config user.name "business-bot"
+          git config user.email "business-bot@users.noreply.github.com"
+          git add -A data docs reports funnels 2>/dev/null || true
+          git diff --cached --quiet && exit 0
+          git commit -q -m "bot: $MSG $(date -u +%F)"
+          for i in 1 2 3; do git pull -q --rebase && git push -q && break; sleep 5; done

@@ -1,0 +1,61 @@
+name: 4 - Approvazione video bambini
+
+on:
+  issue_comment:
+    types: [created]
+
+permissions:
+  contents: write
+  issues: write
+  models: read
+
+concurrency:
+  group: business-state
+  cancel-in-progress: false
+
+jobs:
+  approve:
+    # solo il proprietario del repository può approvare, e solo sulle issue di approvazione
+    if: >-
+      github.event.comment.author_association == 'OWNER' &&
+      contains(github.event.issue.labels.*.name, 'approvazione-kids') &&
+      (startsWith(github.event.comment.body, '/approva') || startsWith(github.event.comment.body, '/rifiuta'))
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+      YT_MAIN_EN_CLIENT_ID: ${{ secrets.YT_MAIN_EN_CLIENT_ID }}
+      YT_MAIN_EN_CLIENT_SECRET: ${{ secrets.YT_MAIN_EN_CLIENT_SECRET }}
+      YT_MAIN_EN_REFRESH_TOKEN: ${{ secrets.YT_MAIN_EN_REFRESH_TOKEN }}
+      YT_MAIN_IT_CLIENT_ID: ${{ secrets.YT_MAIN_IT_CLIENT_ID }}
+      YT_MAIN_IT_CLIENT_SECRET: ${{ secrets.YT_MAIN_IT_CLIENT_SECRET }}
+      YT_MAIN_IT_REFRESH_TOKEN: ${{ secrets.YT_MAIN_IT_REFRESH_TOKEN }}
+      YT_KIDS_EN_CLIENT_ID: ${{ secrets.YT_KIDS_EN_CLIENT_ID }}
+      YT_KIDS_EN_CLIENT_SECRET: ${{ secrets.YT_KIDS_EN_CLIENT_SECRET }}
+      YT_KIDS_EN_REFRESH_TOKEN: ${{ secrets.YT_KIDS_EN_REFRESH_TOKEN }}
+      YT_KIDS_IT_CLIENT_ID: ${{ secrets.YT_KIDS_IT_CLIENT_ID }}
+      YT_KIDS_IT_CLIENT_SECRET: ${{ secrets.YT_KIDS_IT_CLIENT_SECRET }}
+      YT_KIDS_IT_REFRESH_TOKEN: ${{ secrets.YT_KIDS_IT_REFRESH_TOKEN }}
+      MSG: approvazione kids
+      COMMENT_BODY: ${{ github.event.comment.body }}
+      ISSUE_NUMBER: ${{ github.event.issue.number }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -q -r requirements.txt
+      - name: Pubblica o scarta
+        run: python -m src.run approve --issue "$ISSUE_NUMBER" --text "$COMMENT_BODY"
+      - name: Salva stato, sito e report nel repository
+        if: always()
+        run: |
+          git config user.name "business-bot"
+          git config user.email "business-bot@users.noreply.github.com"
+          git add -A data docs reports funnels 2>/dev/null || true
+          git diff --cached --quiet && exit 0
+          git commit -q -m "bot: $MSG $(date -u +%F)"
+          for i in 1 2 3; do git pull -q --rebase && git push -q && break; sleep 5; done

@@ -1,0 +1,91 @@
+# =====================================================================
+#  METODI DI GUADAGNO testati in parallelo.
+#  enabled: false  -> metodo spento
+#  channels: su quali canali pubblica (vedi settings.yaml)
+#  initial_share: quota iniziale dei caricamenti giornalieri del canale
+#  variants: dimensioni da combinare per creare le varianti A1..A10
+# =====================================================================
+
+A_viral:
+  name: "Shorts virali (curiosità e life hack)"
+  enabled: true
+  channels: [main_en, main_it]
+  initial_share: 0.4
+  topics:
+    en: ["surprising science facts", "kitchen life hacks", "psychology tricks", "space facts",
+         "history oddities", "animal superpowers", "money-saving habits", "cleaning hacks",
+         "human body facts", "productivity tricks", "phone hidden features", "ocean mysteries"]
+    it: ["curiosità scientifiche", "trucchi in cucina", "trucchi di psicologia", "curiosità sullo spazio",
+         "stranezze della storia", "superpoteri degli animali", "abitudini per risparmiare", "trucchi per pulire",
+         "curiosità sul corpo umano", "trucchi di produttività", "funzioni nascoste dello smartphone", "misteri dell'oceano"]
+  variants:
+    hook: ["question", "shocking_fact", "countdown", "you_are_doing_it_wrong", "mini_story"]
+    theme: ["midnight", "sunset", "mint", "neon"]
+    length: ["short", "long"]
+
+B_affiliate:
+  name: "Affiliate marketing con micro-video"
+  enabled: true
+  channels: [main_en, main_it]
+  initial_share: 0.25
+  topics:
+    en: ["desk setup upgrades", "kitchen gadgets under $25", "travel essentials", "home workout gear",
+         "smart home starters", "gifts for gamers", "camping must-haves", "pet care helpers",
+         "phone accessories", "reading accessories"]
+    it: ["accessori per la scrivania", "gadget da cucina sotto i 25 euro", "essenziali da viaggio", "attrezzi per allenarsi a casa",
+         "domotica per iniziare", "regali per gamer", "indispensabili da campeggio", "accessori per animali",
+         "accessori per smartphone", "accessori per la lettura"]
+  variants:
+    hook: ["question", "countdown", "problem_solution", "you_are_doing_it_wrong"]
+    theme: ["midnight", "mint", "sunset"]
+    length: ["short", "long"]
+
+C_leadmagnet:
+  name: "Micro-corsi e lead magnet (raccolta email)"
+  enabled: true
+  channels: [main_en, main_it]
+  initial_share: 0.2
+  topics:
+    en: ["save 100 dollars a month", "morning routine that sticks", "learn any skill faster",
+         "beat procrastination", "meal prep for beginners", "declutter your home in 7 days"]
+    it: ["risparmiare 100 euro al mese", "una routine mattutina che funziona", "imparare qualsiasi cosa più in fretta",
+         "battere la procrastinazione", "meal prep per principianti", "riordinare casa in 7 giorni"]
+  variants:
+    hook: ["question", "problem_solution", "mini_story", "countdown"]
+    theme: ["sunset", "mint", "neon"]
+    length: ["short", "long"]
+
+D_pod:
+  name: "Print on Demand (design + Shorts promozionali)"
+  enabled: true
+  channels: [main_en, main_it]
+  initial_share: 0.15
+  designs_per_week: 6
+  topics:
+    en: ["coffee lovers", "introverts", "dog parents", "programmers", "gym humor", "book lovers",
+         "gardening", "cat people", "teachers", "gamers"]
+    it: ["amanti del caffè", "introversi", "genitori di cani", "programmatori", "palestra", "lettori",
+         "giardinaggio", "amanti dei gatti", "insegnanti", "gamer"]
+  variants:
+    hook: ["question", "mini_story", "countdown"]
+    theme: ["neon", "midnight", "sunset"]
+    length: ["short"]
+
+E_kids:
+  name: "Shorts educativi per bambini (con tua approvazione)"
+  enabled: true
+  channels: [kids_en, kids_it]
+  initial_share: 1.0
+  topics:
+    en: ["counting", "colors", "shapes", "animal sounds and facts", "letters"]
+    it: ["contare", "colori", "forme", "animali e curiosità", "lettere"]
+  variants:
+    hook: ["sing_along", "guess_game", "learn_together"]
+    theme: ["candy", "sky", "meadow"]
+    length: ["short", "long"]
+
+F_ads:
+  name: "Ads e retargeting"
+  enabled: false        # versione gratis: spento. Si attiva solo con budget > 0 e tua conferma.
+  channels: []
+  initial_share: 0

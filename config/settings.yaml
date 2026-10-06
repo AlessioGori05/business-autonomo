@@ -1,0 +1,104 @@
+# =====================================================================
+#  BUSINESS AUTONOMO - configurazione principale
+#  Modifica solo questo file (e methods.yaml) per cambiare il comportamento.
+# =====================================================================
+
+# Modalità di sicurezza: se true non carica nulla su YouTube (solo genera e testa).
+# Si disattiva da solo canale per canale quando inserisci le credenziali.
+dry_run: false
+
+# ---------------------------------------------------------------------
+#  Limiti economici (versione GRATIS: tutto a zero)
+# ---------------------------------------------------------------------
+budget:
+  ads_daily_eur: 0            # budget pubblicitario giornaliero. 0 = annunci spenti
+  ads_max_without_approval: 0 # oltre questa cifra serve la tua conferma (issue su GitHub)
+  freelancer_per_task_eur: 0  # 0 = nessun freelancer
+
+# ---------------------------------------------------------------------
+#  Canali YouTube. Ogni canale ha i suoi segreti su GitHub (Settings > Secrets).
+#  Se i segreti mancano, il canale lavora in "anteprima": genera i video
+#  come file scaricabili dalla pagina Actions ma non pubblica.
+# ---------------------------------------------------------------------
+channels:
+  main_en:
+    lang: en
+    secret_prefix: YT_MAIN_EN     # segreti: YT_MAIN_EN_CLIENT_ID, _CLIENT_SECRET, _REFRESH_TOKEN
+    daily_uploads: 4              # quota gratuita YouTube API: ~6 caricamenti/giorno per progetto Google
+    made_for_kids: false
+  main_it:
+    lang: it
+    secret_prefix: YT_MAIN_IT
+    daily_uploads: 4
+    made_for_kids: false
+  kids_en:
+    lang: en
+    secret_prefix: YT_KIDS_EN
+    daily_uploads: 2
+    made_for_kids: true
+    require_approval: true        # pubblica solo dopo il tuo "/approva" su GitHub
+  kids_it:
+    lang: it
+    secret_prefix: YT_KIDS_IT
+    daily_uploads: 2
+    made_for_kids: true
+    require_approval: true
+
+# ---------------------------------------------------------------------
+#  Sito gratuito (GitHub Pages) per landing page, affiliazioni, lead magnet
+# ---------------------------------------------------------------------
+site:
+  # Si compila da solo se lasci vuoto: https://<utente>.github.io/<repo>/
+  base_url: ""
+  brand_name_en: "Smart Daily Picks"
+  brand_name_it: "Scelte Smart"
+  brand_name_kids_en: "Little Learners"
+  brand_name_kids_it: "Piccoli Esploratori"
+  # Tag affiliato Amazon (es. "tuonome-21" per amazon.it, "tuonome-20" per amazon.com).
+  # Vuoto = link normali senza commissione, finché non ti iscrivi.
+  amazon_tag_en: ""
+  amazon_tag_it: ""
+  amazon_domain_en: "amazon.com"
+  amazon_domain_it: "amazon.it"
+  # Modulo email gratuito (MailerLite/Brevo). Incolla l'URL "action" del form embedded.
+  # Vuoto = il PDF si scarica direttamente senza chiedere l'email.
+  newsletter_form_action_en: ""
+  newsletter_form_action_it: ""
+  newsletter_email_field: "fields[email]"   # nome del campo email del tuo form (MailerLite)
+  # Codice GoatCounter (gratuito) per contare i click. Vuoto = nessun tracciamento.
+  goatcounter_code: ""
+  # Link ai negozi Print on Demand (Redbubble, Spreadshirt...). Vuoto = sezione nascosta.
+  pod_store_url_en: ""
+  pod_store_url_it: ""
+
+# ---------------------------------------------------------------------
+#  Intelligenza artificiale gratuita per scrivere i testi
+#  1) GitHub Models (gratis, usa il token automatico di GitHub Actions)
+#  2) Google Gemini free tier (opzionale, segreto GEMINI_API_KEY)
+# ---------------------------------------------------------------------
+llm:
+  github_models: ["openai/gpt-4.1-mini", "openai/gpt-4o-mini", "meta/Llama-3.3-70B-Instruct"]
+  gemini_model: "gemini-2.0-flash"
+  temperature: 0.9
+
+# ---------------------------------------------------------------------
+#  Regole KPI e decisioni (dal tuo prompt)
+# ---------------------------------------------------------------------
+kpi:
+  test_window_days: 7
+  test_window_views: 1000
+  variants_per_method: 10
+  # Vincitore: punteggio >= mediana del metodo x questo fattore
+  winner_factor: 1.3
+  # Sospensione: CTR < 0.5% E durata media < 3s per 2 cicli consecutivi
+  suspend_ctr: 0.005
+  suspend_avg_view_seconds: 3
+  suspend_cycles: 2
+  # "Promuovi +50%": se la resa del metodo supera il target
+  promote_target_views_per_video: 300
+  promote_target_conversion: 0.02
+  promote_factor: 1.5
+  # Metodo "negativo": resa per contenuto < 50% della media del canale
+  negative_ratio: 0.5
+  negative_cycles_before_cut: 2
+  cut_factor: 0.5
