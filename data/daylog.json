@@ -1,0 +1,11 @@
+{
+  "2026-10-06": {
+    "skipped_error": 9,
+    "produced": 3,
+    "preview_only": 3,
+    "warnings": [
+      "Canale kids_en non collegato: i video sono solo in anteprima (scaricabili da Actions)",
+      "Canale kids_it non collegato: i video sono solo in anteprima (scaricabili da Actions)"
+    ]
+  }
+}

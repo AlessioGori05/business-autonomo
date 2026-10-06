@@ -1,0 +1,1185 @@
+{
+  "cycle": 1,
+  "cycle_start": "2026-10-06",
+  "methods": {
+    "A_viral": {
+      "en": {
+        "share": 0.4,
+        "status": "active",
+        "neg_cycles": 0,
+        "tactic": 1,
+        "variants": [
+          {
+            "code": "A1",
+            "hook": "shocking_fact",
+            "theme": "midnight",
+            "length": "short",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "A2",
+            "hook": "you_are_doing_it_wrong",
+            "theme": "sunset",
+            "length": "short",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "A3",
+            "hook": "countdown",
+            "theme": "neon",
+            "length": "short",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "A4",
+            "hook": "countdown",
+            "theme": "neon",
+            "length": "long",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "A5",
+            "hook": "shocking_fact",
+            "theme": "neon",
+            "length": "short",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "A6",
+            "hook": "countdown",
+            "theme": "midnight",
+            "length": "long",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "A7",
+            "hook": "you_are_doing_it_wrong",
+            "theme": "midnight",
+            "length": "short",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "A8",
+            "hook": "you_are_doing_it_wrong",
+            "theme": "neon",
+            "length": "long",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "A9",
+            "hook": "question",
+            "theme": "midnight",
+            "length": "short",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "A10",
+            "hook": "shocking_fact",
+            "theme": "sunset",
+            "length": "long",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          }
+        ],
+        "next_variant": 11
+      },
+      "it": {
+        "share": 0.4,
+        "status": "active",
+        "neg_cycles": 0,
+        "tactic": 1,
+        "variants": [
+          {
+            "code": "A1",
+            "hook": "mini_story",
+            "theme": "sunset",
+            "length": "long",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "A2",
+            "hook": "question",
+            "theme": "mint",
+            "length": "long",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "A3",
+            "hook": "mini_story",
+            "theme": "midnight",
+            "length": "long",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "A4",
+            "hook": "shocking_fact",
+            "theme": "sunset",
+            "length": "short",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "A5",
+            "hook": "you_are_doing_it_wrong",
+            "theme": "sunset",
+            "length": "long",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "A6",
+            "hook": "question",
+            "theme": "sunset",
+            "length": "long",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "A7",
+            "hook": "countdown",
+            "theme": "midnight",
+            "length": "short",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "A8",
+            "hook": "shocking_fact",
+            "theme": "midnight",
+            "length": "short",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "A9",
+            "hook": "question",
+            "theme": "neon",
+            "length": "long",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "A10",
+            "hook": "you_are_doing_it_wrong",
+            "theme": "midnight",
+            "length": "long",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          }
+        ],
+        "next_variant": 11
+      }
+    },
+    "B_affiliate": {
+      "en": {
+        "share": 0.25,
+        "status": "active",
+        "neg_cycles": 0,
+        "tactic": 1,
+        "variants": [
+          {
+            "code": "B1",
+            "hook": "problem_solution",
+            "theme": "sunset",
+            "length": "long",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "B2",
+            "hook": "countdown",
+            "theme": "sunset",
+            "length": "short",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "B3",
+            "hook": "countdown",
+            "theme": "midnight",
+            "length": "short",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "B4",
+            "hook": "countdown",
+            "theme": "sunset",
+            "length": "long",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "B5",
+            "hook": "you_are_doing_it_wrong",
+            "theme": "sunset",
+            "length": "long",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "B6",
+            "hook": "problem_solution",
+            "theme": "mint",
+            "length": "short",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "B7",
+            "hook": "question",
+            "theme": "midnight",
+            "length": "long",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "B8",
+            "hook": "question",
+            "theme": "sunset",
+            "length": "long",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "B9",
+            "hook": "you_are_doing_it_wrong",
+            "theme": "mint",
+            "length": "short",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "B10",
+            "hook": "problem_solution",
+            "theme": "midnight",
+            "length": "long",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          }
+        ],
+        "next_variant": 11
+      },
+      "it": {
+        "share": 0.25,
+        "status": "active",
+        "neg_cycles": 0,
+        "tactic": 1,
+        "variants": [
+          {
+            "code": "B1",
+            "hook": "you_are_doing_it_wrong",
+            "theme": "sunset",
+            "length": "short",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "B2",
+            "hook": "problem_solution",
+            "theme": "sunset",
+            "length": "short",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "B3",
+            "hook": "problem_solution",
+            "theme": "midnight",
+            "length": "short",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "B4",
+            "hook": "countdown",
+            "theme": "mint",
+            "length": "long",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "B5",
+            "hook": "question",
+            "theme": "mint",
+            "length": "long",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "B6",
+            "hook": "countdown",
+            "theme": "sunset",
+            "length": "long",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "B7",
+            "hook": "problem_solution",
+            "theme": "midnight",
+            "length": "long",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "B8",
+            "hook": "question",
+            "theme": "midnight",
+            "length": "long",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "B9",
+            "hook": "you_are_doing_it_wrong",
+            "theme": "sunset",
+            "length": "long",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "B10",
+            "hook": "you_are_doing_it_wrong",
+            "theme": "mint",
+            "length": "short",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          }
+        ],
+        "next_variant": 11
+      }
+    },
+    "C_leadmagnet": {
+      "en": {
+        "share": 0.2,
+        "status": "active",
+        "neg_cycles": 0,
+        "tactic": 1,
+        "variants": [
+          {
+            "code": "C1",
+            "hook": "question",
+            "theme": "neon",
+            "length": "short",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "C2",
+            "hook": "countdown",
+            "theme": "neon",
+            "length": "long",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "C3",
+            "hook": "problem_solution",
+            "theme": "sunset",
+            "length": "long",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "C4",
+            "hook": "problem_solution",
+            "theme": "sunset",
+            "length": "short",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "C5",
+            "hook": "problem_solution",
+            "theme": "neon",
+            "length": "short",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "C6",
+            "hook": "question",
+            "theme": "neon",
+            "length": "long",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "C7",
+            "hook": "mini_story",
+            "theme": "sunset",
+            "length": "short",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "C8",
+            "hook": "problem_solution",
+            "theme": "neon",
+            "length": "long",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "C9",
+            "hook": "countdown",
+            "theme": "sunset",
+            "length": "short",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "C10",
+            "hook": "question",
+            "theme": "sunset",
+            "length": "long",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          }
+        ],
+        "next_variant": 11
+      },
+      "it": {
+        "share": 0.2,
+        "status": "active",
+        "neg_cycles": 0,
+        "tactic": 1,
+        "variants": [
+          {
+            "code": "C1",
+            "hook": "mini_story",
+            "theme": "sunset",
+            "length": "long",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "C2",
+            "hook": "question",
+            "theme": "neon",
+            "length": "long",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "C3",
+            "hook": "mini_story",
+            "theme": "mint",
+            "length": "short",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "C4",
+            "hook": "problem_solution",
+            "theme": "neon",
+            "length": "short",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "C5",
+            "hook": "mini_story",
+            "theme": "sunset",
+            "length": "short",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "C6",
+            "hook": "question",
+            "theme": "mint",
+            "length": "long",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "C7",
+            "hook": "question",
+            "theme": "sunset",
+            "length": "long",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "C8",
+            "hook": "countdown",
+            "theme": "sunset",
+            "length": "short",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "C9",
+            "hook": "countdown",
+            "theme": "neon",
+            "length": "long",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "C10",
+            "hook": "problem_solution",
+            "theme": "mint",
+            "length": "long",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          }
+        ],
+        "next_variant": 11
+      }
+    },
+    "D_pod": {
+      "en": {
+        "share": 0.15,
+        "status": "active",
+        "neg_cycles": 0,
+        "tactic": 1,
+        "variants": [
+          {
+            "code": "D1",
+            "hook": "countdown",
+            "theme": "midnight",
+            "length": "short",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "D2",
+            "hook": "question",
+            "theme": "neon",
+            "length": "short",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "D3",
+            "hook": "mini_story",
+            "theme": "sunset",
+            "length": "short",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "D4",
+            "hook": "question",
+            "theme": "sunset",
+            "length": "short",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "D5",
+            "hook": "mini_story",
+            "theme": "midnight",
+            "length": "short",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "D6",
+            "hook": "countdown",
+            "theme": "sunset",
+            "length": "short",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "D7",
+            "hook": "countdown",
+            "theme": "neon",
+            "length": "short",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "D8",
+            "hook": "mini_story",
+            "theme": "neon",
+            "length": "short",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "D9",
+            "hook": "question",
+            "theme": "midnight",
+            "length": "short",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          }
+        ],
+        "next_variant": 10
+      },
+      "it": {
+        "share": 0.15,
+        "status": "active",
+        "neg_cycles": 0,
+        "tactic": 1,
+        "variants": [
+          {
+            "code": "D1",
+            "hook": "question",
+            "theme": "sunset",
+            "length": "short",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "D2",
+            "hook": "countdown",
+            "theme": "midnight",
+            "length": "short",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "D3",
+            "hook": "question",
+            "theme": "neon",
+            "length": "short",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "D4",
+            "hook": "countdown",
+            "theme": "sunset",
+            "length": "short",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "D5",
+            "hook": "mini_story",
+            "theme": "neon",
+            "length": "short",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "D6",
+            "hook": "countdown",
+            "theme": "neon",
+            "length": "short",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "D7",
+            "hook": "question",
+            "theme": "midnight",
+            "length": "short",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "D8",
+            "hook": "mini_story",
+            "theme": "sunset",
+            "length": "short",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "D9",
+            "hook": "mini_story",
+            "theme": "midnight",
+            "length": "short",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          }
+        ],
+        "next_variant": 10
+      }
+    },
+    "E_kids": {
+      "en": {
+        "share": 1.0,
+        "status": "active",
+        "neg_cycles": 0,
+        "tactic": 1,
+        "variants": [
+          {
+            "code": "E1",
+            "hook": "guess_game",
+            "theme": "candy",
+            "length": "short",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "E2",
+            "hook": "guess_game",
+            "theme": "sky",
+            "length": "long",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "E3",
+            "hook": "sing_along",
+            "theme": "meadow",
+            "length": "short",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "E4",
+            "hook": "sing_along",
+            "theme": "sky",
+            "length": "short",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "E5",
+            "hook": "guess_game",
+            "theme": "candy",
+            "length": "long",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "E6",
+            "hook": "guess_game",
+            "theme": "sky",
+            "length": "short",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "E7",
+            "hook": "sing_along",
+            "theme": "candy",
+            "length": "short",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "E8",
+            "hook": "learn_together",
+            "theme": "candy",
+            "length": "short",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "E9",
+            "hook": "sing_along",
+            "theme": "candy",
+            "length": "long",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "E10",
+            "hook": "guess_game",
+            "theme": "meadow",
+            "length": "short",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          }
+        ],
+        "next_variant": 11
+      },
+      "it": {
+        "share": 1.0,
+        "status": "active",
+        "neg_cycles": 0,
+        "tactic": 1,
+        "variants": [
+          {
+            "code": "E1",
+            "hook": "sing_along",
+            "theme": "meadow",
+            "length": "short",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "E2",
+            "hook": "sing_along",
+            "theme": "meadow",
+            "length": "long",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "E3",
+            "hook": "guess_game",
+            "theme": "candy",
+            "length": "long",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "E4",
+            "hook": "guess_game",
+            "theme": "meadow",
+            "length": "long",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "E5",
+            "hook": "learn_together",
+            "theme": "candy",
+            "length": "long",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "E6",
+            "hook": "guess_game",
+            "theme": "sky",
+            "length": "long",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "E7",
+            "hook": "learn_together",
+            "theme": "meadow",
+            "length": "short",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "E8",
+            "hook": "sing_along",
+            "theme": "sky",
+            "length": "short",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "E9",
+            "hook": "learn_together",
+            "theme": "sky",
+            "length": "long",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          },
+          {
+            "code": "E10",
+            "hook": "guess_game",
+            "theme": "meadow",
+            "length": "short",
+            "status": "testing",
+            "tactic": 1,
+            "created": "2026-10-06",
+            "low_cycles": 0,
+            "evaluated": null
+          }
+        ],
+        "next_variant": 11
+      }
+    }
+  },
+  "history": []
+}
