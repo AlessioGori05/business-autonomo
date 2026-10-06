@@ -17,7 +17,11 @@ import requests
 
 from .util import log, settings
 
-GH_URL = "https://models.github.ai/inference/chat/completions"
+GH_ENDPOINTS = [
+    # (url, prefisso del nome modello da togliere o no)
+    ("https://models.github.ai/inference/chat/completions", False),
+    ("https://models.inference.ai.azure.com/chat/completions", True),   # endpoint storico, nomi senza "openai/"
+]
 GEMINI_URL = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
 
 
@@ -37,25 +41,30 @@ def _github(system: str, user: str, temperature: float) -> str | None:
     token = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_MODELS_TOKEN")
     if not token:
         return None
-    for model in settings()["llm"]["github_models"]:
-        for attempt in range(2):
-            try:
-                r = requests.post(
-                    GH_URL,
-                    headers={"Authorization": f"Bearer {token}", "Content-Type": "application/json"},
-                    json={"model": model, "temperature": temperature,
-                          "messages": [{"role": "system", "content": system},
-                                       {"role": "user", "content": user}]},
-                    timeout=90,
-                )
-                if r.status_code == 429:
-                    time.sleep(20)
-                    continue
-                r.raise_for_status()
-                return r.json()["choices"][0]["message"]["content"]
-            except Exception as e:  # noqa: BLE001
-                log(f"GitHub Models {model} errore: {e}")
-                break
+    for url, strip in GH_ENDPOINTS:
+        for model in settings()["llm"]["github_models"]:
+            name = model.split("/", 1)[1] if strip and "/" in model else model
+            for attempt in range(2):
+                try:
+                    r = requests.post(
+                        url,
+                        headers={"Authorization": f"Bearer {token}", "Content-Type": "application/json",
+                                 "Accept": "application/json", "X-GitHub-Api-Version": "2022-11-28"},
+                        json={"model": name, "temperature": temperature,
+                              "messages": [{"role": "system", "content": system},
+                                           {"role": "user", "content": user}]},
+                        timeout=120,
+                    )
+                    if r.status_code == 429:
+                        time.sleep(20)
+                        continue
+                    if not r.ok or not r.text.strip().startswith("{"):
+                        log(f"GitHub Models {name} @ {url.split('/')[2]}: HTTP {r.status_code} {r.text[:200]!r}")
+                        break
+                    return r.json()["choices"][0]["message"]["content"]
+                except Exception as e:  # noqa: BLE001
+                    log(f"GitHub Models {name} errore: {e}")
+                    break
     return None
 
 
