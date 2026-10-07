@@ -18,7 +18,7 @@ from PIL import Image
 
 from . import decide, generate as G, github_issues, llm, metrics, pod, qc, render, report, site, tts
 from .leadmagnet import ensure_guide
-from .util import (DATA, OUT, ROOT, channel_credentials, iso_week, ledger, log, methods, read_json,
+from .util import (summary, DATA, OUT, ROOT, channel_credentials, iso_week, ledger, log, methods, read_json,
                    save_ledger, settings, site_base_url, today, write_json)
 from .youtube import YouTube
 
@@ -317,7 +317,7 @@ def cmd_verify():
     for ck, ch in cfg["channels"].items():
         creds = channel_credentials(ch)
         if not creds:
-            log(f"{ck}: non collegato")
+            summary(f"{ck}: non collegato")
             continue
         try:
             yt = YouTube(creds)
@@ -326,9 +326,9 @@ def cmd_verify():
             r.raise_for_status()
             items = r.json().get("items", [])
             names = [f"{i['snippet']['title']} ({i['statistics'].get('subscriberCount', '?')} iscritti)" for i in items]
-            log(f"{ck}: OK -> {names}")
+            summary(f"{ck}: OK -> {names}")
         except Exception as e:  # noqa: BLE001
-            log(f"{ck}: ERRORE {getattr(getattr(e, 'response', None), 'text', e)}")
+            summary(f"{ck}: ERRORE {str(getattr(getattr(e, 'response', None), 'text', e))[:300]}")
 
 
 def cmd_demo():

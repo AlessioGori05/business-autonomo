@@ -27,6 +27,15 @@ def log(msg: str) -> None:
     print(f"[{dt.datetime.utcnow():%H:%M:%S}] {msg}", flush=True)
 
 
+def summary(msg: str) -> None:
+    """Scrive una riga nel riepilogo visibile nella pagina dell'esecuzione su GitHub Actions."""
+    log(msg)
+    path = os.environ.get("GITHUB_STEP_SUMMARY")
+    if path:
+        with open(path, "a", encoding="utf-8") as f:
+            f.write(f"- {msg}\n")
+
+
 def today() -> dt.date:
     forced = os.environ.get("BA_TODAY")
     return dt.date.fromisoformat(forced) if forced else dt.date.today()
