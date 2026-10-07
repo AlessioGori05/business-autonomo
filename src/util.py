@@ -99,6 +99,16 @@ def channel_credentials(channel: dict) -> dict | None:
     # .strip(): elimina spazi e "a capo" invisibili copiati per sbaglio insieme ai codici
     cid, sec, tok = ((os.environ.get(f"{p}_{k}") or "").strip().strip('"').strip("'").strip()
                      for k in ("CLIENT_ID", "CLIENT_SECRET", "REFRESH_TOKEN"))
+    # se è stato incollato un blocco di testo intero, estrae i codici veri al suo interno
+    m = re.search(r"1//[0-9A-Za-z_\-]{20,}", tok)
+    if m:
+        tok = m.group(0)
+    m = re.search(r"GOCSPX-[0-9A-Za-z_\-]+", sec)
+    if m:
+        sec = m.group(0)
+    m = re.search(r"[0-9]+-[0-9a-z]+\.apps\.googleusercontent\.com", cid)
+    if m:
+        cid = m.group(0)
     if cid and sec and tok:
         return {"client_id": cid, "client_secret": sec, "refresh_token": tok}
     return None
