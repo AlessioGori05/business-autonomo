@@ -96,7 +96,9 @@ def short_hash(*parts) -> str:
 
 def channel_credentials(channel: dict) -> dict | None:
     p = channel["secret_prefix"]
-    cid, sec, tok = (os.environ.get(f"{p}_{k}") for k in ("CLIENT_ID", "CLIENT_SECRET", "REFRESH_TOKEN"))
+    # .strip(): elimina spazi e "a capo" invisibili copiati per sbaglio insieme ai codici
+    cid, sec, tok = ((os.environ.get(f"{p}_{k}") or "").strip().strip('"').strip("'").strip()
+                     for k in ("CLIENT_ID", "CLIENT_SECRET", "REFRESH_TOKEN"))
     if cid and sec and tok:
         return {"client_id": cid, "client_secret": sec, "refresh_token": tok}
     return None

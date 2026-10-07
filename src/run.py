@@ -319,6 +319,10 @@ def cmd_verify():
         if not creds:
             summary(f"{ck}: non collegato")
             continue
+        diag = (f"id={creds['client_id'][:12]}…{creds['client_id'][-28:]}, secret lungo {len(creds['client_secret'])} "
+                f"(inizia GOCSPX: {creds['client_secret'].startswith('GOCSPX-')}), token lungo {len(creds['refresh_token'])} "
+                f"(inizia 1//: {creds['refresh_token'].startswith('1//')})")
+        summary(f"{ck}: controllo formato -> {diag}")
         try:
             yt = YouTube(creds)
             r = requests.get("https://www.googleapis.com/youtube/v3/channels", params={"part": "snippet,statistics", "mine": "true"},
