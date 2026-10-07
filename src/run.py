@@ -310,6 +310,27 @@ def cmd_weekly():
     report.weekly(alloc, actions)
 
 
+def cmd_verify():
+    """Controlla i collegamenti YouTube senza pubblicare nulla."""
+    import requests
+    cfg = settings()
+    for ck, ch in cfg["channels"].items():
+        creds = channel_credentials(ch)
+        if not creds:
+            log(f"{ck}: non collegato")
+            continue
+        try:
+            yt = YouTube(creds)
+            r = requests.get("https://www.googleapis.com/youtube/v3/channels", params={"part": "snippet,statistics", "mine": "true"},
+                             headers={"Authorization": f"Bearer {yt.token()}"}, timeout=30)
+            r.raise_for_status()
+            items = r.json().get("items", [])
+            names = [f"{i['snippet']['title']} ({i['statistics'].get('subscriberCount', '?')} iscritti)" for i in items]
+            log(f"{ck}: OK -> {names}")
+        except Exception as e:  # noqa: BLE001
+            log(f"{ck}: ERRORE {getattr(getattr(e, 'response', None), 'text', e)}")
+
+
 def cmd_demo():
     """Prova completa senza account: testi d'esempio, voce muta, nessun caricamento."""
     from . import demo_data
@@ -323,11 +344,11 @@ def cmd_demo():
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("cmd", choices=["daily", "evening", "weekly", "approve", "demo", "site"])
+    ap.add_argument("cmd", choices=["daily", "evening", "weekly", "approve", "demo", "site", "verify"])
     ap.add_argument("--issue", type=int)
     ap.add_argument("--text", default="")
     a = ap.parse_args()
-    {"daily": cmd_daily, "evening": cmd_evening, "weekly": cmd_weekly, "demo": cmd_demo, "site": site.build,
+    {"daily": cmd_daily, "verify": cmd_verify, "evening": cmd_evening, "weekly": cmd_weekly, "demo": cmd_demo, "site": site.build,
      "approve": lambda: cmd_approve(a.issue, a.text)}[a.cmd]()
 
 
