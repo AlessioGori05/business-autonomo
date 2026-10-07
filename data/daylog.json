@@ -12,7 +12,7 @@
     "skipped_qc": 2
   },
   "2026-10-07": {
-    "produced": 10,
+    "produced": 12,
     "preview_only": 10,
     "warnings": [
       "Canale main_en non collegato: i video sono solo in anteprima (scaricabili da Actions)",
@@ -20,6 +20,7 @@
       "Canale kids_en non collegato: i video sono solo in anteprima (scaricabili da Actions)",
       "Canale kids_it non collegato: i video sono solo in anteprima (scaricabili da Actions)"
     ],
-    "skipped_qc": 2
+    "skipped_qc": 4,
+    "published": 2
   }
 }

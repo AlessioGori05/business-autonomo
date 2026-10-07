@@ -1970,5 +1970,102 @@
     ],
     "description": "Un breve video educativo per i più piccoli: colori, numeri, forme e lettere.",
     "status": "preview"
+  },
+  {
+    "id": "20261007-C-en-49896b06",
+    "date": "2026-10-07",
+    "channel": "main_en",
+    "lang": "en",
+    "method": "C_leadmagnet",
+    "variant": {
+      "code": "C6",
+      "hook": "question",
+      "theme": "neon",
+      "length": "long"
+    },
+    "topic": "morning routine that sticks",
+    "title": "The One Question That Unlocks a Consistent Morning Routine",
+    "lines": [
+      "Ever wonder why your mornings feel chaotic despite good intentions?",
+      "Start with a consistent wake‑up time to regulate your body clock.",
+      "Place your phone across the room to avoid immediate scrolling.",
+      "Prepare a simple outfit the night before to eliminate decision fatigue.",
+      "Drink a glass of water right after rising to boost metabolism.",
+      "Spend five minutes reviewing three top priorities for the day.",
+      "Add a brief stretch or walk to energize body and mind.",
+      "Use a timer for each morning task to stay on track.",
+      "Free guide 'Stick to a Winning Morning Routine' - link in bio"
+    ],
+    "tags": [
+      "morning routine",
+      "productivity",
+      "habits",
+      "self improvement",
+      "daily habits",
+      "time management",
+      "wellness",
+      "motivation"
+    ],
+    "guide": "stick-to-a-winning-morning-routine",
+    "description": "Discover practical steps to make your mornings smooth and sustainable. Follow these quick tips and grab the free guide for deeper insight.\n\nhttps://alessiogori05.github.io/business-autonomo/en/guide-stick-to-a-winning-morning-routine.html\n\n\n#shorts #morningroutine #productivity #habits",
+    "video_id": "dsx9EjqtU80",
+    "status": "published"
+  },
+  {
+    "id": "20261007-B-en-0acd53e8",
+    "date": "2026-10-07",
+    "channel": "main_en",
+    "lang": "en",
+    "method": "B_affiliate",
+    "variant": {
+      "code": "B2",
+      "hook": "countdown",
+      "theme": "sunset",
+      "length": "short"
+    },
+    "topic": "reading accessories",
+    "title": "3‑2‑1 Reading Accessories Countdown: Clip, Lamp, Lap Pillow",
+    "lines": [
+      "Upgrade your reading comfort with three simple accessories.",
+      "3. A sturdy book clip prevents pages from flipping.",
+      "2. An adjustable clip‑on lamp reduces eye strain.",
+      "1. A plush lap pillow offers stable, ergonomic support.",
+      "Link in bio for the full list"
+    ],
+    "tags": [
+      "reading",
+      "accessories",
+      "book lovers",
+      "study tips",
+      "home office",
+      "ergonomics",
+      "lighting",
+      "comfort"
+    ],
+    "products": [
+      {
+        "name": "Book clip",
+        "search_query": "book clip",
+        "why": "Keeps pages from turning unintentionally, ideal for busy readers or commuters.",
+        "check_before_buying": "Ensure the clip’s grip is strong enough for your book’s thickness."
+      },
+      {
+        "name": "Clip‑on reading lamp",
+        "search_query": "clip on reading lamp",
+        "why": "Provides focused light without disturbing others, reducing eye strain during night reading.",
+        "check_before_buying": "Verify battery life and brightness levels suit your typical reading environment."
+      },
+      {
+        "name": "Lap pillow",
+        "search_query": "lap pillow",
+        "why": "Offers stable, ergonomic support for books or tablets, improving posture while seated.",
+        "check_before_buying": "Check material softness and non‑slip surface for comfortable, secure use."
+      }
+    ],
+    "page_intro": "Welcome to our channel, where we share practical tips to enhance everyday activities. In this video we explore essential accessories that make reading more comfortable and enjoyable, whether you're curled up at home or studying on the go. Discover how simple tools can improve posture, reduce eye strain, and keep your books in perfect condition. Stay tuned for quick recommendations you can find easily online.",
+    "landing": "en/321-reading-accessories-countdown-clip-lamp-lap-pi",
+    "description": "Discover three must‑have accessories that transform your reading experience. From keeping pages in place to lighting your pages and providing cozy support, these items boost comfort and focus. Watch the quick countdown and learn how simple upgrades can make every reading session better.\n\nhttps://alessiogori05.github.io/business-autonomo/en/321-reading-accessories-countdown-clip-lamp-lap-pi.html\nContains affiliate links.\n\n#shorts #reading #accessories #booklovers",
+    "video_id": "EbTd2tHM5a8",
+    "status": "published"
   }
 ]

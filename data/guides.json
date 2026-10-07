@@ -66,5 +66,22 @@
       "Giorno 4 – Camera da letto",
       "Giorno 5 – Bagno e aree di servizio"
     ]
+  },
+  "en:morning routine that sticks": {
+    "lang": "en",
+    "topic": "morning routine that sticks",
+    "title": "Stick to a Winning Morning Routine",
+    "subtitle": "Simple steps to start each day with momentum",
+    "intro": "Creating a morning routine that actually lasts doesn’t require drastic changes—just a few consistent habits that fit your lifestyle. By planning ahead, keeping actions small, and linking them to cues you already use, you can turn a chaotic start into a smooth launch every day. This guide breaks down the essential components, offers bite‑size tips you can implement tonight, and provides a checklist to keep you on track. Follow the steps, and watch your daily productivity and mood improve naturally.",
+    "slug": "stick-to-a-winning-morning-routine",
+    "pdf": "guides/en/stick-to-a-winning-morning-routine.pdf",
+    "funnel": "funnels/en/stick-to-a-winning-morning-routine.md",
+    "chapters": [
+      "1. Define Your Goal",
+      "2. Prepare the Night Before",
+      "3. Anchor with a Simple Cue",
+      "4. Keep It Short and Flexible",
+      "5. Review and Adjust Weekly"
+    ]
   }
 }
