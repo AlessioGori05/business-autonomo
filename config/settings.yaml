@@ -29,18 +29,18 @@ channels:
   main_it:
     lang: it
     secret_prefix: YT_MAIN_IT
-    daily_uploads: 4
+    daily_uploads: 0          # canale non ancora creato: rimetti 4 (o 2 per kids) quando esiste
     made_for_kids: false
   kids_en:
     lang: en
     secret_prefix: YT_KIDS_EN
-    daily_uploads: 2
+    daily_uploads: 0          # canale non ancora creato: rimetti 4 (o 2 per kids) quando esiste
     made_for_kids: true
     require_approval: true        # pubblica solo dopo il tuo "/approva" su GitHub
   kids_it:
     lang: it
     secret_prefix: YT_KIDS_IT
-    daily_uploads: 2
+    daily_uploads: 0          # canale non ancora creato: rimetti 4 (o 2 per kids) quando esiste
     made_for_kids: true
     require_approval: true
 
