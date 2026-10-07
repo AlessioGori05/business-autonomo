@@ -1500,5 +1500,475 @@
     ],
     "description": "Un breve video educativo per i più piccoli: colori, numeri, forme e lettere.",
     "status": "preview"
+  },
+  {
+    "id": "20261007-A-en-aa86eadd",
+    "date": "2026-10-07",
+    "channel": "main_en",
+    "lang": "en",
+    "method": "A_viral",
+    "variant": {
+      "code": "A5",
+      "hook": "shocking_fact",
+      "theme": "neon",
+      "length": "short"
+    },
+    "topic": "surprising science facts",
+    "title": "Mind‑Blowing Science Facts You Won’t Believe",
+    "lines": [
+      "A teaspoon of neutron star material weighs a billion tons on Earth.",
+      "Water can simultaneously boil and freeze at its triple point under precise pressure.",
+      "Our bodies emit a faint blue glow that cameras can capture, invisible to eyes.",
+      "Bananas contain potassium‑40, making them naturally radioactive, though harmless.",
+      "A single lightning bolt reaches temperatures of 30,000 °C, hotter than the Sun’s surface.",
+      "The deepest ocean trench is deeper than Mount Everest is tall, by over 2 km."
+    ],
+    "tags": [
+      "science",
+      "facts",
+      "shorts",
+      "education",
+      "wow",
+      "trivia",
+      "physics",
+      "nature"
+    ],
+    "description": "Explore some of the most astonishing, yet proven, phenomena in nature. These quick facts reveal how extraordinary our universe truly is.\n\nhttps://alessiogori05.github.io/business-autonomo/en/index.html\n\n\n#shorts #science #facts #shorts",
+    "status": "preview"
+  },
+  {
+    "id": "20261007-D-en-5f5733ed",
+    "date": "2026-10-07",
+    "channel": "main_en",
+    "lang": "en",
+    "method": "D_pod",
+    "variant": {
+      "code": "D1",
+      "hook": "countdown",
+      "theme": "midnight",
+      "length": "short"
+    },
+    "topic": "Code, coffee, repeat: my mantra, Pages turn, adventures begin, Sweat now, pizza later",
+    "title": "3-2-1 Tee Countdown: Perfect Shirts for Your Passion",
+    "lines": [
+      "3. Code, coffee, repeat: my mantra – perfect for developers.",
+      "2. Pages turn, adventures begin – ideal for avid readers.",
+      "1. Sweat now, pizza later – best for fitness fans.",
+      "Grab your favorite tee and showcase your personal mantra.",
+      "Find them via the link in bio."
+    ],
+    "tags": [
+      "tshirt designs",
+      "code shirt",
+      "book lovers",
+      "fitness apparel",
+      "fashion countdown",
+      "online shopping",
+      "graphic tees",
+      "style ideas"
+    ],
+    "description": "A quick countdown of three standout t‑shirt designs, each matched with its ideal wearer. Grab yours today!\n\nhttps://alessiogori05.github.io/business-autonomo/en/index.html\n\n\n#shorts #tshirtdesigns #codeshirt #booklovers",
+    "status": "preview"
+  },
+  {
+    "id": "20261007-B-en-c358f0b4",
+    "date": "2026-10-07",
+    "channel": "main_en",
+    "lang": "en",
+    "method": "B_affiliate",
+    "variant": {
+      "code": "B7",
+      "hook": "question",
+      "theme": "midnight",
+      "length": "long"
+    },
+    "topic": "desk setup upgrades",
+    "title": "Transform Your Desk: 3 Simple Upgrades for Focus and Comfort",
+    "lines": [
+      "Ever wondered why your desk feels chaotic even after cleaning?",
+      "A cluttered surface steals focus and slows your workflow.",
+      "Upgrade #1: Add an adjustable monitor stand for perfect eye level.",
+      "It reduces neck strain and creates space beneath your screen.",
+      "Upgrade #2: Install a cable management kit to hide cords.",
+      "Clean lines improve visual clarity and prevent accidental unplugging.",
+      "Upgrade #3: Use a LED desk lamp with adjustable brightness.",
+      "Better lighting reduces eye fatigue during long sessions.",
+      "Combine these three upgrades for a tidy, ergonomic workspace.",
+      "Link in bio for the full list"
+    ],
+    "tags": [
+      "desk setup",
+      "productivity tips",
+      "ergonomic office",
+      "workspace upgrade",
+      "cable management",
+      "monitor stand",
+      "LED desk lamp",
+      "home office"
+    ],
+    "products": [
+      {
+        "name": "Adjustable monitor stand",
+        "search_query": "monitor stand adjustable",
+        "why": "Elevates the screen to eye level, reducing neck strain and freeing desk space.",
+        "check_before_buying": "Ensure it supports your monitor's size and weight."
+      },
+      {
+        "name": "Cable management kit",
+        "search_query": "cable organizer set",
+        "why": "Keeps power and data cords neatly bundled, preventing tangles and accidental unplugging.",
+        "check_before_buying": "Check that the kit includes enough ties or sleeves for all cables."
+      },
+      {
+        "name": "LED desk lamp with dimmer",
+        "search_query": "LED desk lamp dimmable",
+        "why": "Provides focused illumination with adjustable brightness, easing eye fatigue during long work sessions.",
+        "check_before_buying": "Confirm the lamp offers a range of brightness levels and a stable base."
+      }
+    ],
+    "page_intro": "Welcome to our channel, where we share practical, budget‑friendly ideas to enhance your everyday work environment. In this short guide we focus on three straightforward desk upgrades that anyone can implement without specialized tools. By improving posture, tidying cables, and optimizing lighting, you’ll create a more comfortable, efficient workspace that supports focus and reduces fatigue. Stay tuned for quick, actionable tips you can try today.",
+    "landing": "en/transform-your-desk-3-simple-upgrades-for-focus-an",
+    "description": "Discover three affordable desk upgrades that boost ergonomics, declutter your space, and improve lighting. Simple changes, big productivity gains.\n\nhttps://alessiogori05.github.io/business-autonomo/en/transform-your-desk-3-simple-upgrades-for-focus-an.html\nContains affiliate links.\n\n#shorts #desksetup #productivitytips #ergonomicoffice",
+    "status": "preview"
+  },
+  {
+    "id": "20261007-A-en-2c40e955",
+    "date": "2026-10-07",
+    "channel": "main_en",
+    "lang": "en",
+    "method": "A_viral",
+    "variant": {
+      "code": "A1",
+      "hook": "shocking_fact",
+      "theme": "midnight",
+      "length": "short"
+    },
+    "topic": "space facts",
+    "title": "Space Facts That Will Blow Your Mind",
+    "lines": [
+      "A day on Venus is longer than its entire year.",
+      "Mars has the tallest volcano in the solar system, Olympus Mons.",
+      "Space is completely silent because there is no air to carry sound.",
+      "Neutron stars can spin hundreds of times per second after formation.",
+      "A teaspoon of a neutron star would weigh about a billion tons on Earth.",
+      "The observable universe contains roughly two trillion galaxies, each with billions of stars."
+    ],
+    "tags": [
+      "space",
+      "science",
+      "facts",
+      "astronomy",
+      "venus",
+      "mars",
+      "neutronstar",
+      "universe"
+    ],
+    "description": "Explore astonishing truths about our cosmos, from planetary quirks to the scale of the universe. These quick facts reveal just how strange and massive space truly is.\n\nhttps://alessiogori05.github.io/business-autonomo/en/index.html\n\n\n#shorts #space #science #facts",
+    "status": "preview"
+  },
+  {
+    "id": "20261007-A-it-7ccf6db3",
+    "date": "2026-10-07",
+    "channel": "main_it",
+    "lang": "it",
+    "method": "A_viral",
+    "variant": {
+      "code": "A10",
+      "hook": "you_are_doing_it_wrong",
+      "theme": "midnight",
+      "length": "long"
+    },
+    "topic": "curiosità sul corpo umano",
+    "title": "Stai sbagliando il tuo corpo: 10 curiosità per vivere meglio",
+    "lines": [
+      "Stai sbagliando a respirare: la maggior parte respira dal petto, non dal diaframma.",
+      "Usa il diaframma per inspirare più profondamente e aumentare l'ossigeno.",
+      "Stai sbagliando a bere: molte persone non assumono acqua sufficiente.",
+      "Bevi piccole quantità regolarmente per mantenere l'equilibrio idrico.",
+      "Stai sbagliando a stare seduto: curvare la schiena danneggia i dischi.",
+      "Mantieni la schiena dritta e fai pause di movimento ogni ora.",
+      "Stai sbagliando a mangiare: il cervello usa il 20% energia, non solo zuccheri.",
+      "Preferisci grassi sani e proteine per sostenere le funzioni cerebrali.",
+      "Stai sbagliando a dormire: spegnere luci non basta, il ritmo circadiano conta.",
+      "Crea una routine di sonno costante per migliorare memoria e umore."
+    ],
+    "tags": [
+      "corpo",
+      "salute",
+      "curiosità",
+      "benessere",
+      "vita",
+      "consigli",
+      "fitness",
+      "educazione"
+    ],
+    "description": "Scopri gli errori comuni che compiamo con il nostro corpo e come correggerli con semplici accorgimenti. Migliora la tua salute quotidiana in pochi secondi.\n\nhttps://alessiogori05.github.io/business-autonomo/it/index.html\n\n\n#shorts #corpo #salute #curiosità",
+    "status": "preview"
+  },
+  {
+    "id": "20261007-A-it-ae3f64df",
+    "date": "2026-10-07",
+    "channel": "main_it",
+    "lang": "it",
+    "method": "A_viral",
+    "variant": {
+      "code": "A9",
+      "hook": "question",
+      "theme": "neon",
+      "length": "long"
+    },
+    "topic": "trucchi di produttività",
+    "title": "Scopri i segreti della produttività in 60 secondi",
+    "lines": [
+      "Ti sei mai chiesto perché alcuni completano tutto in metà tempo?",
+      "Prova la tecnica del Pomodoro: 25 minuti lavoro, 5 minuti pausa.",
+      "Usa il metodo “2‑minute rule”: se impiega meno di due minuti, fallo subito.",
+      "Organizza le attività con la matrice Eisenhower: urgente vs importante.",
+      "Limita le notifiche disattivando gli avvisi non essenziali.",
+      "Imposta obiettivi SMART: specifici, misurabili, raggiungibili, rilevanti, temporizzati.",
+      "Blocca le distrazioni digitali usando modalità “Non disturbare” durante il focus.",
+      "Fai una lista di priorità la sera precedente per iniziare subito.",
+      "Prenditi 5 minuti per fare stretching: aumenta circolazione e concentrazione.",
+      "Rivedi i risultati alla fine della giornata e aggiusta il piano."
+    ],
+    "tags": [
+      "produttività",
+      "focus",
+      "tempo",
+      "organizzazione",
+      "Pomodoro",
+      "SMART",
+      "Eisenhower",
+      "consigli"
+    ],
+    "description": "In questo short ti mostriamo tecniche concrete per gestire meglio il tempo e ridurre le distrazioni. Applica subito questi consigli e osserva la tua produttività aumentare.\n\nhttps://alessiogori05.github.io/business-autonomo/it/index.html\n\n\n#shorts #produttività #focus #tempo",
+    "status": "preview"
+  },
+  {
+    "id": "20261007-B-it-4c83e1a7",
+    "date": "2026-10-07",
+    "channel": "main_it",
+    "lang": "it",
+    "method": "B_affiliate",
+    "variant": {
+      "code": "B1",
+      "hook": "you_are_doing_it_wrong",
+      "theme": "sunset",
+      "length": "short"
+    },
+    "topic": "accessori per la lettura",
+    "title": "Accessori per la lettura: 3 errori da non commettere",
+    "lines": [
+      "Stai leggendo al buio, sbagliando l'illuminazione.",
+      "Una luce LED regolabile protegge gli occhi e migliora la concentrazione.",
+      "Usa un segnalibro magnetico per non perdere pagine né segnalare strappi.",
+      "Un supporto per libro mantiene le mani libere e riduce l'affaticamento.",
+      "Scegli materiali leggeri e pieghevoli per portare tutto ovunque.",
+      "Link nel profilo per la lista completa"
+    ],
+    "tags": [
+      "lettura",
+      "accessori lettura",
+      "consigli lettura",
+      "luce led",
+      "segnalibro magnetico",
+      "supporto libro",
+      "comfort occhi",
+      "organizzazione"
+    ],
+    "products": [
+      {
+        "name": "Luce LED da lettura",
+        "search_query": "luce led lettura",
+        "why": "Fornisce illuminazione diretta senza affaticare la vista durante la lettura prolungata.",
+        "check_before_buying": "Verifica che la luminosità sia regolabile e la temperatura colore sia neutra."
+      },
+      {
+        "name": "Segnalibro magnetico",
+        "search_query": "segnalibro magnetico",
+        "why": "Mantiene la pagina in posizione senza danneggiare il libro, è riutilizzabile.",
+        "check_before_buying": "Assicurati che le calamite siano abbastanza forti da aderire ma non strappare la carta."
+      },
+      {
+        "name": "Supporto regolabile per libro",
+        "search_query": "supporto libro regolabile",
+        "why": "Libera le mani, migliora postura e consente lettura comoda su superfici diverse.",
+        "check_before_buying": "Controlla che il supporto abbia angoli di inclinazione sufficienti e sia stabile."
+      }
+    ],
+    "page_intro": "Benvenuti sul nostro canale dedicato ai consigli pratici per la vita quotidiana. In pochi secondi ti mostriamo soluzioni semplici e accessibili per migliorare le tue abitudini, dal lavoro allo studio, passando per la lettura. Ogni video è pensato per essere chiaro, utile e veloce, così da poter applicare subito le idee presentate. Iscriviti per non perdere i prossimi suggerimenti!",
+    "landing": "it/accessori-per-la-lettura-3-errori-da-non-commetter",
+    "description": "Scopri come piccoli accessori possono trasformare la tua esperienza di lettura, evitando errori comuni e migliorando comfort e praticità. Segui questi consigli rapidi per leggere meglio ogni giorno.\n\nhttps://alessiogori05.github.io/business-autonomo/it/accessori-per-la-lettura-3-errori-da-non-commetter.html\nContiene link di affiliazione.\n\n#shorts #lettura #accessorilettura #consiglilettura",
+    "status": "preview"
+  },
+  {
+    "id": "20261007-E-en-5000bf41",
+    "date": "2026-10-07",
+    "channel": "kids_en",
+    "lang": "en",
+    "method": "E_kids",
+    "variant": {
+      "code": "E8",
+      "hook": "learn_together",
+      "theme": "candy",
+      "length": "short"
+    },
+    "topic": "colors",
+    "title": "Learn colors: green, orange, yellow",
+    "lines": [
+      "Let's learn colors!",
+      "This is green!",
+      "This is orange!",
+      "This is yellow!",
+      "This is blue!",
+      "This is red!",
+      "Well done!"
+    ],
+    "tags": [],
+    "scenes": [
+      {
+        "kind": "title"
+      },
+      {
+        "kind": "color",
+        "color": "#43A047",
+        "label": "green"
+      },
+      {
+        "kind": "color",
+        "color": "#FB8C00",
+        "label": "orange"
+      },
+      {
+        "kind": "color",
+        "color": "#FDD835",
+        "label": "yellow"
+      },
+      {
+        "kind": "color",
+        "color": "#1E88E5",
+        "label": "blue"
+      },
+      {
+        "kind": "color",
+        "color": "#E53935",
+        "label": "red"
+      },
+      {
+        "kind": "title"
+      }
+    ],
+    "description": "A gentle learning short for little ones: colors, numbers, shapes and letters.",
+    "status": "preview"
+  },
+  {
+    "id": "20261007-E-it-37175253",
+    "date": "2026-10-07",
+    "channel": "kids_it",
+    "lang": "it",
+    "method": "E_kids",
+    "variant": {
+      "code": "E1",
+      "hook": "sing_along",
+      "theme": "meadow",
+      "length": "short"
+    },
+    "topic": "forme",
+    "title": "Forme per bambini: cuore, cerchio, triangolo",
+    "lines": [
+      "Scopriamo le forme!",
+      "Un cuore!",
+      "Un cerchio!",
+      "Un triangolo!",
+      "Un quadrato!",
+      "Ora conosci le forme!"
+    ],
+    "tags": [],
+    "scenes": [
+      {
+        "kind": "title"
+      },
+      {
+        "kind": "shape",
+        "shape": "heart",
+        "color": "#8E24AA",
+        "label": "cuore"
+      },
+      {
+        "kind": "shape",
+        "shape": "circle",
+        "color": "#E53935",
+        "label": "cerchio"
+      },
+      {
+        "kind": "shape",
+        "shape": "triangle",
+        "color": "#E53935",
+        "label": "triangolo"
+      },
+      {
+        "kind": "shape",
+        "shape": "square",
+        "color": "#FDD835",
+        "label": "quadrato"
+      },
+      {
+        "kind": "title"
+      }
+    ],
+    "description": "Un breve video educativo per i più piccoli: colori, numeri, forme e lettere.",
+    "status": "preview"
+  },
+  {
+    "id": "20261007-E-it-fa5228bc",
+    "date": "2026-10-07",
+    "channel": "kids_it",
+    "lang": "it",
+    "method": "E_kids",
+    "variant": {
+      "code": "E4",
+      "hook": "guess_game",
+      "theme": "meadow",
+      "length": "long"
+    },
+    "topic": "animali e curiosità",
+    "title": "Scopri il gatto: amico morbido",
+    "lines": [
+      "Il gatto ha morbido pelo.",
+      "Ama dormire in posti caldi.",
+      "Mangia crocchette e piccoli pesci.",
+      "Fa le fusa quando è felice.",
+      "Ha occhi che vedono bene al buio.",
+      "Gioca con palline morbide e fili."
+    ],
+    "tags": [],
+    "scenes": [
+      {
+        "kind": "animal",
+        "label": "gatto"
+      },
+      {
+        "kind": "animal",
+        "label": "gatto"
+      },
+      {
+        "kind": "animal",
+        "label": "gatto"
+      },
+      {
+        "kind": "animal",
+        "label": "gatto"
+      },
+      {
+        "kind": "animal",
+        "label": "gatto"
+      },
+      {
+        "kind": "animal",
+        "label": "gatto"
+      }
+    ],
+    "description": "Un breve video educativo per i più piccoli: colori, numeri, forme e lettere.",
+    "status": "preview"
   }
 ]
