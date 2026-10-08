@@ -83,5 +83,22 @@
       "4. Keep It Short and Flexible",
       "5. Review and Adjust Weekly"
     ]
+  },
+  "en:learn any skill faster": {
+    "lang": "en",
+    "topic": "learn any skill faster",
+    "title": "Learn Any Skill in Half the Time",
+    "subtitle": "The Ultimate Practical Mini-Guide",
+    "intro": "Stop wasting time on ineffective study habits. This guide cuts through the noise to give you a clear, step-by-step framework for mastering new skills efficiently. Whether you are learning a language, an instrument, or coding, these strategies are backed by cognitive science and practical experience. You will learn how to break down complex topics, manage your energy, and retain information long-term. No fluff, just actionable steps. Download this guide and start accelerating your learning curve today. Your future self will thank you for the time you save and the confidence you gain.",
+    "slug": "learn-any-skill-in-half-the-time",
+    "pdf": "guides/en/learn-any-skill-in-half-the-time.pdf",
+    "funnel": "funnels/en/learn-any-skill-in-half-the-time.md",
+    "chapters": [
+      "Deconstruct the Skill",
+      "Deliberate Practice",
+      "Memory & Retention",
+      "Environment & Focus",
+      "Consistency & Mindset"
+    ]
   }
 }

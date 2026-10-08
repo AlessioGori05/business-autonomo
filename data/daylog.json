@@ -22,5 +22,10 @@
     ],
     "skipped_qc": 4,
     "published": 2
+  },
+  "2026-10-08": {
+    "produced": 3,
+    "published": 3,
+    "skipped_qc": 1
   }
 }
