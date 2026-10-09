@@ -2213,5 +2213,145 @@
       "privacy": "public",
       "upload_status": "processed"
     }
+  },
+  {
+    "id": "20261009-C-en-7b68af3a",
+    "date": "2026-10-09",
+    "channel": "main_en",
+    "lang": "en",
+    "method": "C_leadmagnet",
+    "variant": {
+      "code": "C7",
+      "hook": "mini_story",
+      "theme": "sunset",
+      "length": "short"
+    },
+    "topic": "learn any skill faster",
+    "title": "Accelerate Your Learning: Proven Hacks",
+    "lines": [
+      "I tried learning guitar, and in a week I could play simple songs.",
+      "Break the skill into 5‑minute micro‑sessions; consistency beats marathon practice.",
+      "Teach what you learn to someone else; it reinforces memory.",
+      "Use spaced repetition: review key points after 1, 3, and 7 days.",
+      "Free guide 'Learn Any Skill in Half the Time' - link in bio"
+    ],
+    "tags": [
+      "learning",
+      "skill development",
+      "productivity",
+      "study tips",
+      "self‑improvement",
+      "quick learning",
+      "educational hacks",
+      "personal growth"
+    ],
+    "guide": "learn-any-skill-in-half-the-time",
+    "description": "Quick, evidence‑backed techniques to halve the time it takes to master any new skill. Follow these actionable steps and download the free guide for deeper strategies.\n\nhttps://alessiogori05.github.io/business-autonomo/en/guide-learn-any-skill-in-half-the-time.html\n\n\n#shorts #learning #skilldevelopment #productivity",
+    "video_id": "-FJqZiLBtf4",
+    "status": "published"
+  },
+  {
+    "id": "20261009-B-en-aea01c15",
+    "date": "2026-10-09",
+    "channel": "main_en",
+    "lang": "en",
+    "method": "B_affiliate",
+    "variant": {
+      "code": "B10",
+      "hook": "problem_solution",
+      "theme": "midnight",
+      "length": "long"
+    },
+    "topic": "gifts for gamers",
+    "title": "Fix Common Gaming Frustrations with Three Simple Gear Upgrades",
+    "lines": [
+      "Tired of sore wrists after long gaming sessions?",
+      "Your controller grip can be the simple fix.",
+      "Add a comfortable grip sleeve for better control.",
+      "Next, glare and lag ruin your visuals.",
+      "A high‑refresh‑rate monitor smooths fast action.",
+      "Look for 144 Hz or higher refresh rates.",
+      "Finally, teammates’ chatter can be distracting.",
+      "A noise‑cancelling gaming headset keeps focus sharp.",
+      "Choose one with clear mic and comfortable pads.",
+      "Link in bio for the full list"
+    ],
+    "tags": [
+      "gaming",
+      "gamer tips",
+      "gaming gear",
+      "ergonomic",
+      "monitor",
+      "headset",
+      "controller accessories",
+      "gaming setup"
+    ],
+    "products": [
+      {
+        "name": "Controller grip sleeve",
+        "search_query": "gaming controller grip",
+        "why": "A grip sleeve adds cushioning and prevents slipping, reducing wrist strain during long play.",
+        "check_before_buying": "Ensure the sleeve fits your specific controller model."
+      },
+      {
+        "name": "High-refresh-rate monitor",
+        "search_query": "144hz gaming monitor",
+        "why": "Monitors with 144 Hz or higher refresh rates display motion more smoothly, giving competitive advantage.",
+        "check_before_buying": "Confirm the monitor supports the resolution and ports your PC or console uses."
+      },
+      {
+        "name": "Noise‑cancelling gaming headset",
+        "search_query": "gaming noise cancelling headset",
+        "why": "Noise‑cancelling headsets block background sounds and provide clear voice chat, improving focus.",
+        "check_before_buying": "Check that the headset’s microphone is detachable or has mute functionality."
+      }
+    ],
+    "page_intro": "Welcome to our quick‑hit guide for gamers who want better comfort, clearer visuals, and focused audio without breaking the bank. In this short, we spotlight three everyday accessories that solve common pain points: controller grips to protect your hands, high‑refresh‑rate monitors for fluid gameplay, and noise‑cancelling headsets for crystal‑clear communication. Stick around for practical tips and know‑what‑to‑look‑for before you buy.",
+    "landing": "en/fix-common-gaming-frustrations-with-three-simple-g",
+    "description": "Quick guide to three essential gamer accessories that boost comfort, visual performance, and audio clarity.\n\nhttps://alessiogori05.github.io/business-autonomo/en/fix-common-gaming-frustrations-with-three-simple-g.html\nContains affiliate links.\n\n#shorts #gaming #gamertips #gaminggear",
+    "video_id": "nXXJzc1LwOI",
+    "status": "published"
+  },
+  {
+    "id": "20261009-A-en-f798473b",
+    "date": "2026-10-09",
+    "channel": "main_en",
+    "lang": "en",
+    "method": "A_viral",
+    "variant": {
+      "code": "A6",
+      "hook": "countdown",
+      "theme": "midnight",
+      "length": "long"
+    },
+    "topic": "ocean mysteries",
+    "title": "3-2-1 Countdown: Ocean’s Deepest Trench, The Bloop, and Plastic Patch",
+    "lines": [
+      "3. The Mariana Trench: deepest point, over 11,000 meters below sea level.",
+      "Pressure here exceeds 1,000 atmospheres, crushing most objects instantly.",
+      "Only a few manned submersibles have reached its bottom.",
+      "Unique microbes thrive under extreme pressure, revealing new biochemical pathways.",
+      "2. The Bloop: mysterious ultra-low frequency sound recorded in 1997.",
+      "It traveled over 1,500 km across the Pacific, louder than a blue whale.",
+      "Scientists link the sound to icequake activity, yet some questions remain.",
+      "The frequency matches that of large iceberg calving events.",
+      "1. The Great Pacific Garbage Patch: massive floating debris concentration.",
+      "Microplastics absorb pollutants, entering marine food webs and affecting wildlife.",
+      "Cleanup projects deploy nets and barriers, but scale and funding limit impact.",
+      "Reducing plastic use on land is essential to prevent future patch growth."
+    ],
+    "tags": [
+      "ocean",
+      "mysteries",
+      "mariana",
+      "bloop",
+      "plastic",
+      "science",
+      "shorts",
+      "countdown"
+    ],
+    "description": "Explore three of the ocean’s biggest mysteries in a rapid countdown. From the crushing depths of the Mariana Trench to the enigmatic Bloop sound and the sprawling plastic debris zone, discover why they captivate scientists.\n\nhttps://alessiogori05.github.io/business-autonomo/en/index.html\n\n\n#shorts #ocean #mysteries #mariana",
+    "video_id": "dzpKAHutRYw",
+    "status": "published"
   }
 ]
