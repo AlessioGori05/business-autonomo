@@ -2011,7 +2011,7 @@
     "video_id": "dsx9EjqtU80",
     "status": "published",
     "m": {
-      "views": 6,
+      "views": 8,
       "likes": 0,
       "comments": 0,
       "privacy": "public",
@@ -2075,7 +2075,7 @@
     "video_id": "EbTd2tHM5a8",
     "status": "published",
     "m": {
-      "views": 8,
+      "views": 9,
       "likes": 0,
       "comments": 0,
       "privacy": "public",
@@ -2122,7 +2122,7 @@
     "video_id": "bvOkJ0ugGXE",
     "status": "published",
     "m": {
-      "views": 8,
+      "views": 25,
       "likes": 0,
       "comments": 0,
       "privacy": "public",
@@ -2165,7 +2165,7 @@
     "video_id": "EqayzvJaGjw",
     "status": "published",
     "m": {
-      "views": 6,
+      "views": 12,
       "likes": 0,
       "comments": 0,
       "privacy": "public",
@@ -2207,7 +2207,7 @@
     "video_id": "J4k-HqIi0N0",
     "status": "published",
     "m": {
-      "views": 16,
+      "views": 24,
       "likes": 0,
       "comments": 0,
       "privacy": "public",
@@ -2248,7 +2248,14 @@
     "guide": "learn-any-skill-in-half-the-time",
     "description": "Quick, evidence‑backed techniques to halve the time it takes to master any new skill. Follow these actionable steps and download the free guide for deeper strategies.\n\nhttps://alessiogori05.github.io/business-autonomo/en/guide-learn-any-skill-in-half-the-time.html\n\n\n#shorts #learning #skilldevelopment #productivity",
     "video_id": "-FJqZiLBtf4",
-    "status": "published"
+    "status": "published",
+    "m": {
+      "views": 6,
+      "likes": 1,
+      "comments": 0,
+      "privacy": "public",
+      "upload_status": "processed"
+    }
   },
   {
     "id": "20261009-B-en-aea01c15",
@@ -2310,7 +2317,14 @@
     "landing": "en/fix-common-gaming-frustrations-with-three-simple-g",
     "description": "Quick guide to three essential gamer accessories that boost comfort, visual performance, and audio clarity.\n\nhttps://alessiogori05.github.io/business-autonomo/en/fix-common-gaming-frustrations-with-three-simple-g.html\nContains affiliate links.\n\n#shorts #gaming #gamertips #gaminggear",
     "video_id": "nXXJzc1LwOI",
-    "status": "published"
+    "status": "published",
+    "m": {
+      "views": 11,
+      "likes": 0,
+      "comments": 0,
+      "privacy": "public",
+      "upload_status": "processed"
+    }
   },
   {
     "id": "20261009-A-en-f798473b",
@@ -2352,6 +2366,13 @@
     ],
     "description": "Explore three of the ocean’s biggest mysteries in a rapid countdown. From the crushing depths of the Mariana Trench to the enigmatic Bloop sound and the sprawling plastic debris zone, discover why they captivate scientists.\n\nhttps://alessiogori05.github.io/business-autonomo/en/index.html\n\n\n#shorts #ocean #mysteries #mariana",
     "video_id": "dzpKAHutRYw",
-    "status": "published"
+    "status": "published",
+    "m": {
+      "views": 5,
+      "likes": 0,
+      "comments": 0,
+      "privacy": "public",
+      "upload_status": "processed"
+    }
   }
 ]
