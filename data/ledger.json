@@ -2015,7 +2015,11 @@
       "likes": 0,
       "comments": 0,
       "privacy": "public",
-      "upload_status": "processed"
+      "upload_status": "processed",
+      "a_views": 3,
+      "avg_view_s": 0,
+      "avg_view_pct": 0,
+      "subs": 0
     }
   },
   {
@@ -2079,7 +2083,11 @@
       "likes": 0,
       "comments": 0,
       "privacy": "public",
-      "upload_status": "processed"
+      "upload_status": "processed",
+      "a_views": 3,
+      "avg_view_s": 7,
+      "avg_view_pct": 39.66,
+      "subs": 0
     }
   },
   {
@@ -2122,7 +2130,7 @@
     "video_id": "bvOkJ0ugGXE",
     "status": "published",
     "m": {
-      "views": 25,
+      "views": 27,
       "likes": 0,
       "comments": 0,
       "privacy": "public",
@@ -2165,11 +2173,15 @@
     "video_id": "EqayzvJaGjw",
     "status": "published",
     "m": {
-      "views": 12,
+      "views": 13,
       "likes": 0,
       "comments": 0,
       "privacy": "public",
-      "upload_status": "processed"
+      "upload_status": "processed",
+      "a_views": 0,
+      "avg_view_s": 0,
+      "avg_view_pct": 0,
+      "subs": 0
     }
   },
   {
@@ -2207,11 +2219,15 @@
     "video_id": "J4k-HqIi0N0",
     "status": "published",
     "m": {
-      "views": 24,
+      "views": 28,
       "likes": 0,
       "comments": 0,
       "privacy": "public",
-      "upload_status": "processed"
+      "upload_status": "processed",
+      "a_views": 2,
+      "avg_view_s": 8,
+      "avg_view_pct": 28.000000000000004,
+      "subs": 0
     }
   },
   {
@@ -2250,7 +2266,7 @@
     "video_id": "-FJqZiLBtf4",
     "status": "published",
     "m": {
-      "views": 6,
+      "views": 10,
       "likes": 1,
       "comments": 0,
       "privacy": "public",
@@ -2319,7 +2335,7 @@
     "video_id": "nXXJzc1LwOI",
     "status": "published",
     "m": {
-      "views": 11,
+      "views": 21,
       "likes": 0,
       "comments": 0,
       "privacy": "public",
@@ -2368,7 +2384,7 @@
     "video_id": "dzpKAHutRYw",
     "status": "published",
     "m": {
-      "views": 5,
+      "views": 14,
       "likes": 0,
       "comments": 0,
       "privacy": "public",
@@ -2432,7 +2448,14 @@
     "landing": "en/travel-made-easy-3-essentials-to-stop-packing-chao",
     "description": "Discover three simple travel essentials that eliminate packing stress, keep your gadgets charged, and let you rest comfortably on the go.\n\nhttps://alessiogori05.github.io/business-autonomo/en/travel-made-easy-3-essentials-to-stop-packing-chao.html\nContains affiliate links.\n\n#shorts #travel #packing #travelhacks",
     "video_id": "-4F3FHRu4O0",
-    "status": "published"
+    "status": "published",
+    "m": {
+      "views": 14,
+      "likes": 1,
+      "comments": 0,
+      "privacy": "public",
+      "upload_status": "processed"
+    }
   },
   {
     "id": "20261010-C-en-5a4ce12a",
@@ -2469,7 +2492,14 @@
     "guide": "meal-prep-made-easy-beginners-blueprint",
     "description": "Learn quick, beginner-friendly meal prep tricks to cut cooking time and stay healthy. Grab the free guide for step‑by‑step instructions.\n\nhttps://alessiogori05.github.io/business-autonomo/en/guide-meal-prep-made-easy-beginners-blueprint.html\n\n\n#shorts #mealprep #beginnercooking #easyrecipes",
     "video_id": "7KpbYsT383A",
-    "status": "published"
+    "status": "published",
+    "m": {
+      "views": 9,
+      "likes": 0,
+      "comments": 0,
+      "privacy": "public",
+      "upload_status": "processed"
+    }
   },
   {
     "id": "20261010-D-en-39002d5f",
@@ -2504,6 +2534,13 @@
     ],
     "description": "A quick 3‑2‑1 countdown showcases three playful t‑shirt designs, each matched with its ideal audience, ending with a call to action.\n\nhttps://alessiogori05.github.io/business-autonomo/en/index.html\n\n\n#shorts #tshirtdesigns #funtees #countdownstyle",
     "video_id": "QziYWMipqzE",
-    "status": "published"
+    "status": "published",
+    "m": {
+      "views": 8,
+      "likes": 0,
+      "comments": 0,
+      "privacy": "public",
+      "upload_status": "processed"
+    }
   }
 ]
