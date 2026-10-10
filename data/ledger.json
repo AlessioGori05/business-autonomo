@@ -2374,5 +2374,136 @@
       "privacy": "public",
       "upload_status": "processed"
     }
+  },
+  {
+    "id": "20261010-B-en-fd94f82f",
+    "date": "2026-10-10",
+    "channel": "main_en",
+    "lang": "en",
+    "method": "B_affiliate",
+    "variant": {
+      "code": "B6",
+      "hook": "problem_solution",
+      "theme": "mint",
+      "length": "short"
+    },
+    "topic": "travel essentials",
+    "title": "Travel Made Easy: 3 Essentials to Stop Packing Chaos",
+    "lines": [
+      "Ever scramble to fit everything into a suitcase at the last minute?",
+      "Messy bags make airport security a nightmare for any traveler.",
+      "Use packing cubes to organize clothes and maximize space instantly.",
+      "A compact portable charger keeps your devices alive on long flights.",
+      "A supportive travel pillow ensures you rest comfortably during delays.",
+      "These three items turn chaotic trips into smooth adventures.",
+      "Link in bio for the full list"
+    ],
+    "tags": [
+      "travel",
+      "packing",
+      "travel hacks",
+      "suitcase",
+      "portable charger",
+      "travel pillow",
+      "travel tips",
+      "wanderlust"
+    ],
+    "products": [
+      {
+        "name": "Packing cubes",
+        "search_query": "packing cubes",
+        "why": "They segment clothing, maximize suitcase volume, and keep items tidy.",
+        "check_before_buying": "Ensure the cubes are made of lightweight, durable fabric with zip closures."
+      },
+      {
+        "name": "Portable charger",
+        "search_query": "portable charger",
+        "why": "Provides backup power for phones, tablets, and cameras during travel.",
+        "check_before_buying": "Check the capacity (mAh) meets your devices' charging needs."
+      },
+      {
+        "name": "Travel pillow",
+        "search_query": "travel pillow",
+        "why": "Supports neck alignment, reducing fatigue on long flights or bus rides.",
+        "check_before_buying": "Choose a pillow with washable cover and appropriate firmness."
+      }
+    ],
+    "page_intro": "Packing for a trip can feel overwhelming, especially when you’re trying to fit outfits, gadgets, and toiletries into a limited suitcase space. Disorganized bags often lead to last‑minute stress at the airport and forgotten items. By using simple tools like packing cubes, a reliable portable charger, and a comfortable travel pillow, you can streamline your preparation, keep your devices powered, and arrive rested. These essentials turn chaotic packing into a smooth, enjoyable experience for any traveler.",
+    "landing": "en/travel-made-easy-3-essentials-to-stop-packing-chao",
+    "description": "Discover three simple travel essentials that eliminate packing stress, keep your gadgets charged, and let you rest comfortably on the go.\n\nhttps://alessiogori05.github.io/business-autonomo/en/travel-made-easy-3-essentials-to-stop-packing-chao.html\nContains affiliate links.\n\n#shorts #travel #packing #travelhacks",
+    "video_id": "-4F3FHRu4O0",
+    "status": "published"
+  },
+  {
+    "id": "20261010-C-en-5a4ce12a",
+    "date": "2026-10-10",
+    "channel": "main_en",
+    "lang": "en",
+    "method": "C_leadmagnet",
+    "variant": {
+      "code": "C4",
+      "hook": "problem_solution",
+      "theme": "sunset",
+      "length": "short"
+    },
+    "topic": "meal prep for beginners",
+    "title": "Simple Meal Prep Hacks for Busy Beginners",
+    "lines": [
+      "Tired of last‑minute cooking and unhealthy takeout?",
+      "Meal prep saves time, money, and stress every busy week.",
+      "Start with three simple steps: plan, shop, batch‑cook.",
+      "Tip: Choose versatile proteins like chicken, beans, and eggs.",
+      "Tip: Pre‑portion veggies into grab‑and‑go bags for quick sides.",
+      "Free guide 'Meal Prep Made Easy: Beginner’s Blueprint' - link in bio"
+    ],
+    "tags": [
+      "meal prep",
+      "beginner cooking",
+      "easy recipes",
+      "time saving",
+      "healthy meals",
+      "batch cooking",
+      "kitchen tips",
+      "budget meals"
+    ],
+    "guide": "meal-prep-made-easy-beginners-blueprint",
+    "description": "Learn quick, beginner-friendly meal prep tricks to cut cooking time and stay healthy. Grab the free guide for step‑by‑step instructions.\n\nhttps://alessiogori05.github.io/business-autonomo/en/guide-meal-prep-made-easy-beginners-blueprint.html\n\n\n#shorts #mealprep #beginnercooking #easyrecipes",
+    "video_id": "7KpbYsT383A",
+    "status": "published"
+  },
+  {
+    "id": "20261010-D-en-39002d5f",
+    "date": "2026-10-10",
+    "channel": "main_en",
+    "lang": "en",
+    "method": "D_pod",
+    "variant": {
+      "code": "D7",
+      "hook": "countdown",
+      "theme": "neon",
+      "length": "short"
+    },
+    "topic": "Sweat now, pizza later, Pawsitive vibes, wagging hearts, Brewed optimism in every sip",
+    "title": "3‑2‑1 Tee Countdown: Fresh Designs for Every Mood",
+    "lines": [
+      "3. Sweat now, pizza later – perfect for gym lovers craving post‑workout treats.",
+      "2. Pawsitive vibes, wagging hearts – ideal for dog owners spreading joy.",
+      "1. Brewed optimism in every sip – great for coffee fans seeking positivity.",
+      "All three bring humor and motivation to everyday wear.",
+      "Find them via the link in bio"
+    ],
+    "tags": [
+      "tshirt designs",
+      "fun tees",
+      "countdown style",
+      "gym humor",
+      "dog lovers",
+      "coffee lovers",
+      "fashion tips",
+      "shorts"
+    ],
+    "description": "A quick 3‑2‑1 countdown showcases three playful t‑shirt designs, each matched with its ideal audience, ending with a call to action.\n\nhttps://alessiogori05.github.io/business-autonomo/en/index.html\n\n\n#shorts #tshirtdesigns #funtees #countdownstyle",
+    "video_id": "QziYWMipqzE",
+    "status": "published"
   }
 ]
